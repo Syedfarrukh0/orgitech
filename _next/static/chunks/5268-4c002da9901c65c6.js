@@ -127,11 +127,11 @@
                                         }), (0, n.jsx)("div", {
                                             className: "cb-outro-header",
                                             children: (0, n.jsx)("a", {
-                                                href: "mailto:hi@weareenigma.com",
+                                                href: "mailto:info@orgitech.com",
                                                 "data-cursor-size": "80px",
                                                 "data-cursor-exclusion": !0,
                                                 className: "f__anim",
-                                                children: "hi@weareenigma.com"
+                                                children: "info@orgitech.com"
                                             })
                                         })]
                                     }), (0, n.jsxs)("div", {
@@ -145,10 +145,10 @@
                                                 "data-cursor-exclusion": !0,
                                                 "data-cursor-size": "80px",
                                                 children: (0, n.jsx)("a", {
-                                                    href: "tel:+91 8178 026 136",
+                                                    href: "tel:+951 900 3213",
                                                     children: (0, n.jsx)("span", {
-                                                        "data-text": "+91 8178 026 136",
-                                                        children: "+91 8178 026 136"
+                                                        "data-text": "+951 900 3213",
+                                                        children: "+951 900 3213"
                                                     })
                                                 })
                                             }), (0, n.jsx)("div", {
@@ -156,10 +156,10 @@
                                                 "data-cursor-exclusion": !0,
                                                 "data-cursor-size": "80px",
                                                 children: (0, n.jsx)("a", {
-                                                    href: "tel:+91 7303 644 520",
+                                                    href: "tel:+951 900 3213",
                                                     children: (0, n.jsx)("span", {
-                                                        "data-text": "+91 7303 644 520",
-                                                        children: "+91 7303 644 520"
+                                                        "data-text": "+951 900 3213",
+                                                        children: "+951 900 3213"
                                                     })
                                                 })
                                             })]
@@ -179,7 +179,7 @@
                                                 "data-cursor-exclusion": !0,
                                                 "data-cursor-size": "80px",
                                                 children: (0, n.jsx)("a", {
-                                                    href: "https://www.facebook.com/in.enigmadigital",
+                                                    href: "https://www.facebook.com/orgitech?mibextid=tPfjzR",
                                                     target: "blank",
                                                     children: (0, n.jsx)("span", {
                                                         "data-text": "Facebook",
@@ -191,7 +191,7 @@
                                                 "data-cursor-exclusion": !0,
                                                 "data-cursor-size": "80px",
                                                 children: (0, n.jsx)("a", {
-                                                    href: "https://www.instagram.com/enigmadigital/",
+                                                    href: "#",
                                                     target: "blank",
                                                     children: (0, n.jsx)("span", {
                                                         "data-text": "Instagram",
@@ -204,7 +204,7 @@
                                                 "data-cursor-size": "80px",
                                                 children: (0, n.jsx)("a", {
                                                     target: "blank",
-                                                    href: "https://www.youtube.com/",
+                                                    href: "#",
                                                     children: (0, n.jsx)("span", {
                                                         "data-text": "YouTube",
                                                         children: "YouTube"
@@ -218,7 +218,7 @@
                                                 "data-cursor-exclusion": !0,
                                                 "data-cursor-size": "80px",
                                                 children: (0, n.jsx)("a", {
-                                                    href: "https://in.linkedin.com/company/enigma-digital-product-design-ui-ux-neuromarketing",
+                                                    href: "https://www.linkedin.com/in/orgi-tech-a7778b259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
                                                     target: "blank",
                                                     children: (0, n.jsx)("span", {
                                                         "data-text": "LinkedIn",
@@ -230,7 +230,7 @@
                                                 "data-cursor-exclusion": !0,
                                                 "data-cursor-size": "80px",
                                                 children: (0, n.jsx)("a", {
-                                                    href: "https://twitter.com/_EnigmaDigital",
+                                                    href: "#",
                                                     target: "blank",
                                                     children: (0, n.jsx)("span", {
                                                         "data-text": "Twitter",
@@ -242,7 +242,7 @@
                                                 "data-cursor-exclusion": !0,
                                                 "data-cursor-size": "80px",
                                                 children: (0, n.jsx)("a", {
-                                                    href: "https://www.behance.net/enigma-digital",
+                                                    href: "#",
                                                     target: "blank",
                                                     children: (0, n.jsx)("span", {
                                                         "data-text": "Behance",
@@ -558,7 +558,7 @@
                                                                     "data-cursor-size": "50px",
                                                                     children: (0, n.jsx)("a", {
                                                                         target: "blank",
-                                                                        href: "https://www.facebook.com/in.enigmadigital",
+                                                                        href: "https://www.facebook.com/orgitech?mibextid=tPfjzR",
                                                                         children: (0, n.jsx)("span", {
                                                                             "data-text": "Facebook",
                                                                             children: "Facebook"
@@ -571,7 +571,7 @@
                                                                     "data-cursor-size": "50px",
                                                                     children: (0, n.jsx)("a", {
                                                                         target: "blank",
-                                                                        href: "https://www.instagram.com/enigmadigital/",
+                                                                        href: "#",
                                                                         children: (0, n.jsx)("span", {
                                                                             "data-text": "Instagram",
                                                                             children: "Instagram"
@@ -584,7 +584,7 @@
                                                                     "data-cursor-size": "50px",
                                                                     children: (0, n.jsx)("a", {
                                                                         target: "blank",
-                                                                        href: "https://www.youtube.com/",
+                                                                        href: "#",
                                                                         children: (0, n.jsx)("span", {
                                                                             "data-text": "YouTube",
                                                                             children: "YouTube"
@@ -600,7 +600,7 @@
                                                                     "data-cursor-size": "50px",
                                                                     children: (0, n.jsx)("a", {
                                                                         target: "blank",
-                                                                        href: "https://twitter.com/_EnigmaDigital",
+                                                                        href: "#",
                                                                         children: (0, n.jsx)("span", {
                                                                             "data-text": "Twitter",
                                                                             children: "Twitter"
@@ -613,7 +613,7 @@
                                                                     "data-cursor-size": "50px",
                                                                     children: (0, n.jsx)("a", {
                                                                         target: "blank",
-                                                                        href: "https://in.linkedin.com/company/enigma-digital-product-design-ui-ux-neuromarketing",
+                                                                        href: "https://www.linkedin.com/in/orgi-tech-a7778b259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
                                                                         children: (0, n.jsx)("span", {
                                                                             "data-text": "LinkedIn",
                                                                             children: "LinkedIn"
@@ -626,7 +626,7 @@
                                                                     "data-cursor-size": "50px",
                                                                     children: (0, n.jsx)("a", {
                                                                         target: "blank",
-                                                                        href: "https://www.behance.net/enigma-digital",
+                                                                        href: "#",
                                                                         children: (0, n.jsx)("span", {
                                                                             "data-text": "Behance",
                                                                             children: "Behance"
@@ -653,9 +653,9 @@
                                                                         className: "cb-outro-header nav__link",
                                                                         ref: y,
                                                                         children: (0, n.jsx)("a", {
-                                                                            href: "mailto:hi@weareenigma.com",
+                                                                            href: "mailto:info@orgitech.com",
                                                                             "data-cursor-size": "70px",
-                                                                            children: "hi@weareenigma.com"
+                                                                            children: "info@orgitech.com"
                                                                         })
                                                                     })
                                                                 }), (0, n.jsx)("div", {
@@ -666,10 +666,10 @@
                                                                         "data-cursor-opaque": !0,
                                                                         "data-cursor-size": "50px",
                                                                         children: (0, n.jsx)("a", {
-                                                                            href: "tel:+91 8178 026 136",
+                                                                            href: "tel:+951 900 3213",
                                                                             children: (0, n.jsx)("span", {
-                                                                                "data-text": "+91 8178 026 136",
-                                                                                children: "+91 8178 026 136"
+                                                                                "data-text": "+951 900 3213",
+                                                                                children: "+951 900 3213"
                                                                             })
                                                                         })
                                                                     })
@@ -1023,8 +1023,8 @@
                                     className: "contact-content-mail-desc",
                                     id: "say-anim-links",
                                     children: [(0, n.jsx)("a", {
-                                        href: "mailto:hi@weareenigma.com",
-                                        children: "hi@weareenigma.com"
+                                        href: "mailto:info@orgitech.com",
+                                        children: "info@orgitech.com"
                                     }), (0, n.jsx)("div", {
                                         className: "contact-content-mail-desc-underline"
                                     })]
@@ -1039,7 +1039,7 @@
                                     className: "contact-content-call-desc",
                                     id: "say-anim-links",
                                     children: (0, n.jsxs)("a", {
-                                        href: "tel:+91 8178 026 136",
+                                        href: "tel:+951 900 3213",
                                         style: {
                                             letterSpacing: "1.3px"
                                         },
@@ -1051,7 +1051,7 @@
                                     className: "contact-content-call-desc",
                                     id: "say-anim-links",
                                     children: (0, n.jsxs)("a", {
-                                        href: "tel:+91 7303 644 520",
+                                        href: "tel:+951 900 3213",
                                         children: [(0, n.jsx)("span", {
                                             children: "+91"
                                         }), " 7303 644 520"]
@@ -1066,7 +1066,7 @@
                                         id: "say-anim-links",
                                         children: (0, n.jsx)("a", {
                                             target: "blank",
-                                            href: "https://www.facebook.com/in.enigmadigital",
+                                            href: "https://www.facebook.com/orgitech?mibextid=tPfjzR",
                                             children: (0, n.jsx)("span", {
                                                 children: "Facebook"
                                             })
@@ -1076,7 +1076,7 @@
                                         id: "say-anim-links",
                                         children: (0, n.jsx)("a", {
                                             target: "blank",
-                                            href: "https://www.instagram.com/enigmadigital/",
+                                            href: "#",
                                             children: (0, n.jsx)("span", {
                                                 children: "Instagram"
                                             })
@@ -1086,7 +1086,7 @@
                                         id: "say-anim-links",
                                         children: (0, n.jsx)("a", {
                                             target: "blank",
-                                            href: "https://www.youtube.com/",
+                                            href: "#",
                                             children: (0, n.jsx)("span", {
                                                 "data-text": "YouTube",
                                                 children: "YouTube"
@@ -1100,7 +1100,7 @@
                                         id: "say-anim-links",
                                         children: (0, n.jsx)("a", {
                                             target: "blank",
-                                            href: "https://in.linkedin.com/company/enigma-digital-product-design-ui-ux-neuromarketing",
+                                            href: "https://www.linkedin.com/in/orgi-tech-a7778b259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
                                             children: (0, n.jsx)("span", {
                                                 children: "LinkedIn"
                                             })
@@ -1110,7 +1110,7 @@
                                         id: "say-anim-links",
                                         children: (0, n.jsx)("a", {
                                             target: "blank",
-                                            href: "https://twitter.com/_EnigmaDigital",
+                                            href: "#",
                                             children: (0, n.jsx)("span", {
                                                 children: "Twitter"
                                             })
@@ -1120,7 +1120,7 @@
                                         id: "say-anim-links",
                                         children: (0, n.jsx)("a", {
                                             target: "blank",
-                                            href: "https://www.behance.net/enigma-digital",
+                                            href: "#",
                                             children: (0, n.jsx)("span", {
                                                 children: "Behance"
                                             })
@@ -1139,7 +1139,7 @@
                                     children: (0, n.jsx)("div", {
                                         className: "footer-copyright-label",
                                         id: "say-anim-links",
-                                        children: "\xa9 2023 Enigma Digital Consulting, LLP. All Rights Reserved. All Wrongs Reversed."
+                                        children: "\xa9 2023 Orgitech Digital Consulting, LLP. All Rights Reserved. All Wrongs Reversed."
                                     })
                                 })]
                             })

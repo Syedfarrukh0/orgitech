@@ -1,12 +1,12 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
     [2888], {
-        2962: function(e, t, r) {
+        2962: function (e, t, r) {
             "use strict";
             r.d(t, {
-                PB: function() {
+                PB: function () {
                     return NextSeo
                 },
-                lX: function() {
+                lX: function () {
                     return DefaultSeo
                 }
             });
@@ -15,7 +15,7 @@
                 a = r.n(o);
 
             function _extends() {
-                return (_extends = Object.assign ? Object.assign.bind() : function(e) {
+                return (_extends = Object.assign ? Object.assign.bind() : function (e) {
                     for (var t = 1; t < arguments.length; t++) {
                         var r = arguments[t];
                         for (var n in r) Object.prototype.hasOwnProperty.call(r, n) && (e[n] = r[n])
@@ -43,12 +43,13 @@
                     defaultOpenGraphVideoWidth: 0,
                     defaultOpenGraphVideoHeight: 0
                 },
-                buildOpenGraphMediaTags = function(e, t, r) {
+
+                buildOpenGraphMediaTags = function (e, t, r) {
                     void 0 === t && (t = []);
                     var o = void 0 === r ? {} : r,
                         a = o.defaultWidth,
                         i = o.defaultHeight;
-                    return t.reduce(function(t, r, o) {
+                    return t.reduce(function (t, r, o) {
                         return t.push(n.createElement("meta", {
                             key: "og:" + e + ":0" + o,
                             property: "og:" + e,
@@ -84,15 +85,18 @@
                         })), t
                     }, [])
                 },
-                buildTags = function(e) {
+
+                buildTags = function (e) {
                     var t, r, o, a, u, p = [];
                     e.titleTemplate && (s.templateTitle = e.titleTemplate);
                     var c = "";
-                    e.title ? (c = e.title, s.templateTitle && (c = s.templateTitle.replace(/%s/g, function() {
+                    e.title ? (c = e.title, s.templateTitle && (c = s.templateTitle.replace(/%s/g, function () {
                         return c
                     }))) : e.defaultTitle && (c = e.defaultTitle), c && p.push(n.createElement("title", {
                         key: "title"
-                    }, c));
+                    },
+
+                        c));
                     var d = void 0 === e.noindex ? s.noindex || e.dangerouslySetAllPagesToNoIndex : e.noindex,
                         h = void 0 === e.nofollow ? s.nofollow || e.dangerouslySetAllPagesToNoFollow : e.nofollow,
                         f = e.norobots || s.norobots,
@@ -110,88 +114,112 @@
                         m = (y ? ",nosnippet" : "") + (v ? ",max-snippet:" + v : "") + (b ? ",max-image-preview:" + b : "") + (E ? ",noarchive" : "") + (_ ? ",unavailable_after:" + _ : "") + (k ? ",noimageindex" : "") + (w ? ",max-video-preview:" + w : "") + (S ? ",notranslate" : "")
                     }
                     if (e.norobots && (s.norobots = !0), d || h ? (e.dangerouslySetAllPagesToNoIndex && (s.noindex = !0), e.dangerouslySetAllPagesToNoFollow && (s.nofollow = !0), p.push(n.createElement("meta", {
-                            key: "robots",
-                            name: "robots",
-                            content: (d ? "noindex" : "index") + "," + (h ? "nofollow" : "follow") + m
-                        }))) : (!f || m) && p.push(n.createElement("meta", {
-                            key: "robots",
-                            name: "robots",
-                            content: "index,follow" + m
-                        })), e.description && p.push(n.createElement("meta", {
-                            key: "description",
-                            name: "description",
+                        key: "",
+                        name: "",
+                        content: (d ? "noindex" : "index") + "," + (h ? "nofollow" : "follow") + m
+                    }))) : (!f || m) && p.push(n.createElement("meta", {
+                        key: "",
+                        name: "",
+                        content: "" + m
+                    })),
+
+                        e.description && p.push(n.createElement("meta", {
+                            // key: "description",
+                            // name: "description",
+                            key: "",
+                            name: "",
                             content: e.description
-                        })), e.themeColor && p.push(n.createElement("meta", {
+                        })),
+
+                        e.themeColor && p.push(n.createElement("meta", {
                             key: "theme-color",
                             name: "theme-color",
                             content: e.themeColor
-                        })), e.mobileAlternate && p.push(n.createElement("link", {
+                        })),
+
+                        e.mobileAlternate && p.push(n.createElement("link", {
                             rel: "alternate",
                             key: "mobileAlternate",
                             media: e.mobileAlternate.media,
                             href: e.mobileAlternate.href
-                        })), e.languageAlternates && e.languageAlternates.length > 0 && e.languageAlternates.forEach(function(e) {
+                        })),
+
+                        e.languageAlternates && e.languageAlternates.length > 0 && e.languageAlternates.forEach(function (e) {
                             p.push(n.createElement("link", {
                                 rel: "alternate",
                                 key: "languageAlternate-" + e.hrefLang,
                                 hrefLang: e.hrefLang,
                                 href: e.href
                             }))
-                        }), e.twitter && (e.twitter.cardType && p.push(n.createElement("meta", {
-                            key: "twitter:card",
-                            name: "twitter:card",
+                        }),
+
+                        e.twitter && (e.twitter.cardType && p.push(n.createElement("meta", {
+                            key: "",
+                            name: "",
                             content: e.twitter.cardType
-                        })), e.twitter.site && p.push(n.createElement("meta", {
-                            key: "twitter:site",
-                            name: "twitter:site",
-                            content: e.twitter.site
-                        })), e.twitter.handle && p.push(n.createElement("meta", {
-                            key: "twitter:creator",
-                            name: "twitter:creator",
-                            content: e.twitter.handle
-                        }))), e.facebook && e.facebook.appId && p.push(n.createElement("meta", {
-                            key: "fb:app_id",
-                            property: "fb:app_id",
+                        })),
+
+                            e.twitter.site && p.push(n.createElement("meta", {
+                                key: "",
+                                name: "",
+                                content: e.twitter.site
+                            })),
+
+                            e.twitter.handle && p.push(n.createElement("meta", {
+                                key: "",
+                                name: "",
+                                content: e.twitter.handle
+                            }))),
+
+                        e.facebook && e.facebook.appId && p.push(n.createElement("meta", {
+                            key: "",
+                            property: "",
                             content: e.facebook.appId
-                        })), (null != (t = e.openGraph) && t.title || c) && p.push(n.createElement("meta", {
-                            key: "og:title",
-                            property: "og:title",
+                        })),
+
+                        (null != (t = e.openGraph) && t.title || c) && p.push(n.createElement("meta", {
+                            key: "",
+                            property: "",
                             content: (null == (a = e.openGraph) ? void 0 : a.title) || c
-                        })), (null != (r = e.openGraph) && r.description || e.description) && p.push(n.createElement("meta", {
-                            key: "og:description",
-                            property: "og:description",
+                        })),
+
+                        (null != (r = e.openGraph) && r.description || e.description) && p.push(n.createElement("meta", {
+                            key: "",
+                            property: "",
                             content: (null == (u = e.openGraph) ? void 0 : u.description) || e.description
-                        })), e.openGraph) {
+                        })),
+
+                        e.openGraph) {
                         if ((e.openGraph.url || e.canonical) && p.push(n.createElement("meta", {
-                                key: "og:url",
-                                property: "og:url",
-                                content: e.openGraph.url || e.canonical
-                            })), e.openGraph.type) {
+                            key: "",
+                            property: "",
+                            content: e.openGraph.url || e.canonical
+                        })), e.openGraph.type) {
                             var G = e.openGraph.type.toLowerCase();
                             p.push(n.createElement("meta", {
-                                key: "og:type",
-                                property: "og:type",
+                                key: "",
+                                property: "",
                                 content: G
                             })), "profile" === G && e.openGraph.profile ? (e.openGraph.profile.firstName && p.push(n.createElement("meta", {
-                                key: "profile:first_name",
-                                property: "profile:first_name",
+                                key: "",
+                                property: "",
                                 content: e.openGraph.profile.firstName
                             })), e.openGraph.profile.lastName && p.push(n.createElement("meta", {
-                                key: "profile:last_name",
-                                property: "profile:last_name",
+                                key: "",
+                                property: "",
                                 content: e.openGraph.profile.lastName
                             })), e.openGraph.profile.username && p.push(n.createElement("meta", {
-                                key: "profile:username",
-                                property: "profile:username",
+                                key: "",
+                                property: "",
                                 content: e.openGraph.profile.username
                             })), e.openGraph.profile.gender && p.push(n.createElement("meta", {
-                                key: "profile:gender",
-                                property: "profile:gender",
+                                key: "",
+                                property: "",
                                 content: e.openGraph.profile.gender
-                            }))) : "book" === G && e.openGraph.book ? (e.openGraph.book.authors && e.openGraph.book.authors.length && e.openGraph.book.authors.forEach(function(e, t) {
+                            }))) : "book" === G && e.openGraph.book ? (e.openGraph.book.authors && e.openGraph.book.authors.length && e.openGraph.book.authors.forEach(function (e, t) {
                                 p.push(n.createElement("meta", {
-                                    key: "book:author:0" + t,
-                                    property: "book:author",
+                                    key: "" + t,
+                                    property: "",
                                     content: e
                                 }))
                             }), e.openGraph.book.isbn && p.push(n.createElement("meta", {
@@ -202,7 +230,7 @@
                                 key: "book:release_date",
                                 property: "book:release_date",
                                 content: e.openGraph.book.releaseDate
-                            })), e.openGraph.book.tags && e.openGraph.book.tags.length && e.openGraph.book.tags.forEach(function(e, t) {
+                            })), e.openGraph.book.tags && e.openGraph.book.tags.length && e.openGraph.book.tags.forEach(function (e, t) {
                                 p.push(n.createElement("meta", {
                                     key: "book:tag:0" + t,
                                     property: "book:tag",
@@ -220,7 +248,7 @@
                                 key: "article:expiration_time",
                                 property: "article:expiration_time",
                                 content: e.openGraph.article.expirationTime
-                            })), e.openGraph.article.authors && e.openGraph.article.authors.length && e.openGraph.article.authors.forEach(function(e, t) {
+                            })), e.openGraph.article.authors && e.openGraph.article.authors.length && e.openGraph.article.authors.forEach(function (e, t) {
                                 p.push(n.createElement("meta", {
                                     key: "article:author:0" + t,
                                     property: "article:author",
@@ -230,13 +258,13 @@
                                 key: "article:section",
                                 property: "article:section",
                                 content: e.openGraph.article.section
-                            })), e.openGraph.article.tags && e.openGraph.article.tags.length && e.openGraph.article.tags.forEach(function(e, t) {
+                            })), e.openGraph.article.tags && e.openGraph.article.tags.length && e.openGraph.article.tags.forEach(function (e, t) {
                                 p.push(n.createElement("meta", {
                                     key: "article:tag:0" + t,
                                     property: "article:tag",
                                     content: e
                                 }))
-                            })) : ("video.movie" === G || "video.episode" === G || "video.tv_show" === G || "video.other" === G) && e.openGraph.video && (e.openGraph.video.actors && e.openGraph.video.actors.length && e.openGraph.video.actors.forEach(function(e, t) {
+                            })) : ("video.movie" === G || "video.episode" === G || "video.tv_show" === G || "video.other" === G) && e.openGraph.video && (e.openGraph.video.actors && e.openGraph.video.actors.length && e.openGraph.video.actors.forEach(function (e, t) {
                                 e.profile && p.push(n.createElement("meta", {
                                     key: "video:actor:0" + t,
                                     property: "video:actor",
@@ -246,13 +274,13 @@
                                     property: "video:actor:role",
                                     content: e.role
                                 }))
-                            }), e.openGraph.video.directors && e.openGraph.video.directors.length && e.openGraph.video.directors.forEach(function(e, t) {
+                            }), e.openGraph.video.directors && e.openGraph.video.directors.length && e.openGraph.video.directors.forEach(function (e, t) {
                                 p.push(n.createElement("meta", {
                                     key: "video:director:0" + t,
                                     property: "video:director",
                                     content: e
                                 }))
-                            }), e.openGraph.video.writers && e.openGraph.video.writers.length && e.openGraph.video.writers.forEach(function(e, t) {
+                            }), e.openGraph.video.writers && e.openGraph.video.writers.length && e.openGraph.video.writers.forEach(function (e, t) {
                                 p.push(n.createElement("meta", {
                                     key: "video:writer:0" + t,
                                     property: "video:writer",
@@ -266,7 +294,7 @@
                                 key: "video:release_date",
                                 property: "video:release_date",
                                 content: e.openGraph.video.releaseDate
-                            })), e.openGraph.video.tags && e.openGraph.video.tags.length && e.openGraph.video.tags.forEach(function(e, t) {
+                            })), e.openGraph.video.tags && e.openGraph.video.tags.length && e.openGraph.video.tags.forEach(function (e, t) {
                                 p.push(n.createElement("meta", {
                                     key: "video:tag:0" + t,
                                     property: "video:tag",
@@ -285,8 +313,8 @@
                             defaultWidth: s.defaultOpenGraphVideoWidth,
                             defaultHeight: s.defaultOpenGraphVideoHeight
                         })), e.openGraph.audio && p.push.apply(p, buildOpenGraphMediaTags("audio", e.openGraph.audio)), e.openGraph.locale && p.push(n.createElement("meta", {
-                            key: "og:locale",
-                            property: "og:locale",
+                            key: "",
+                            property: "",
                             content: e.openGraph.locale
                         })), (e.openGraph.siteName || e.openGraph.site_name) && p.push(n.createElement("meta", {
                             key: "og:site_name",
@@ -295,16 +323,16 @@
                         }))
                     }
                     return e.canonical && p.push(n.createElement("link", {
-                        rel: "canonical",
+                        rel: "",
                         href: e.canonical,
-                        key: "canonical"
-                    })), e.additionalMetaTags && e.additionalMetaTags.length > 0 && e.additionalMetaTags.forEach(function(e) {
+                        key: ""
+                    })), e.additionalMetaTags && e.additionalMetaTags.length > 0 && e.additionalMetaTags.forEach(function (e) {
                         var t, r, o = e.keyOverride,
                             a = _objectWithoutPropertiesLoose(e, i);
                         p.push(n.createElement("meta", _extends({
                             key: "meta:" + (null != (t = null != (r = null != o ? o : a.name) ? r : a.property) ? t : a.httpEquiv)
                         }, a)))
-                    }), null != (o = e.additionalLinkTags) && o.length && e.additionalLinkTags.forEach(function(e) {
+                    }), null != (o = e.additionalLinkTags) && o.length && e.additionalLinkTags.forEach(function (e) {
                         var t, r = e.crossOrigin,
                             o = _objectWithoutPropertiesLoose(e, l);
                         p.push(n.createElement("link", _extends({
@@ -314,10 +342,10 @@
                         })))
                     }), p
                 },
-                WithHead = function(e) {
+                WithHead = function (e) {
                     return n.createElement(a(), null, buildTags(e))
                 },
-                DefaultSeo = function(e) {
+                DefaultSeo = function (e) {
                     var t = e.title,
                         r = e.titleTemplate,
                         o = e.defaultTitle,
@@ -363,7 +391,7 @@
                         norobots: k
                     })
                 },
-                NextSeo = function(e) {
+                NextSeo = function (e) {
                     var t = e.title,
                         r = e.themeColor,
                         o = e.noindex,
@@ -407,18 +435,18 @@
                 "'": "&apos;"
             })).join("") + "]", "g")
         },
-        1118: function(e, t, r) {
-            (window.__NEXT_P = window.__NEXT_P || []).push(["/_app", function() {
+        1118: function (e, t, r) {
+            (window.__NEXT_P = window.__NEXT_P || []).push(["/_app", function () {
                 return r(6747)
             }])
         },
-        2422: function(e, t) {
+        2422: function (e, t) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
             }), Object.defineProperty(t, "createAsyncLocalStorage", {
                 enumerable: !0,
-                get: function() {
+                get: function () {
                     return createAsyncLocalStorage
                 }
             });
@@ -427,7 +455,7 @@
                 disable() {
                     throw r
                 }
-                getStore() {}
+                getStore() { }
                 run() {
                     throw r
                 }
@@ -442,73 +470,73 @@
 
             function createAsyncLocalStorage() {
                 return n ? new n : new FakeAsyncLocalStorage
-            }("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
+            } ("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
                 value: !0
             }), Object.assign(t.default, t), e.exports = t.default)
         },
-        8427: function(e, t, r) {
+        8427: function (e, t, r) {
             "use strict";
 
-            function clientHookInServerComponentError(e) {}
+            function clientHookInServerComponentError(e) { }
             Object.defineProperty(t, "__esModule", {
                 value: !0
             }), Object.defineProperty(t, "clientHookInServerComponentError", {
                 enumerable: !0,
-                get: function() {
+                get: function () {
                     return clientHookInServerComponentError
                 }
             }), r(8754), r(7294), ("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
                 value: !0
             }), Object.assign(t.default, t), e.exports = t.default)
         },
-        636: function(e, t, r) {
+        636: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
-                    value: !0
-                }),
-                function(e, t) {
+                value: !0
+            }),
+                function (e, t) {
                     for (var r in t) Object.defineProperty(e, r, {
                         enumerable: !0,
                         get: t[r]
                     })
                 }(t, {
-                    ReadonlyURLSearchParams: function() {
+                    ReadonlyURLSearchParams: function () {
                         return ReadonlyURLSearchParams
                     },
-                    useSearchParams: function() {
+                    useSearchParams: function () {
                         return useSearchParams
                     },
-                    usePathname: function() {
+                    usePathname: function () {
                         return usePathname
                     },
-                    ServerInsertedHTMLContext: function() {
+                    ServerInsertedHTMLContext: function () {
                         return s.ServerInsertedHTMLContext
                     },
-                    useServerInsertedHTML: function() {
+                    useServerInsertedHTML: function () {
                         return s.useServerInsertedHTML
                     },
-                    useRouter: function() {
+                    useRouter: function () {
                         return useRouter
                     },
-                    useParams: function() {
+                    useParams: function () {
                         return useParams
                     },
-                    useSelectedLayoutSegments: function() {
+                    useSelectedLayoutSegments: function () {
                         return useSelectedLayoutSegments
                     },
-                    useSelectedLayoutSegment: function() {
+                    useSelectedLayoutSegment: function () {
                         return useSelectedLayoutSegment
                     },
-                    redirect: function() {
+                    redirect: function () {
                         return u.redirect
                     },
-                    permanentRedirect: function() {
+                    permanentRedirect: function () {
                         return u.permanentRedirect
                     },
-                    RedirectType: function() {
+                    RedirectType: function () {
                         return u.RedirectType
                     },
-                    notFound: function() {
+                    notFound: function () {
                         return p.notFound
                     }
                 });
@@ -607,25 +635,25 @@
                 void 0 === e && (e = "children"), (0, i.clientHookInServerComponentError)("useSelectedLayoutSegment");
                 let t = useSelectedLayoutSegments(e);
                 return 0 === t.length ? null : t[0]
-            }("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
+            } ("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
                 value: !0
             }), Object.assign(t.default, t), e.exports = t.default)
         },
-        9363: function(e, t) {
+        9363: function (e, t) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
-                    value: !0
-                }),
-                function(e, t) {
+                value: !0
+            }),
+                function (e, t) {
                     for (var r in t) Object.defineProperty(e, r, {
                         enumerable: !0,
                         get: t[r]
                     })
                 }(t, {
-                    notFound: function() {
+                    notFound: function () {
                         return notFound
                     },
-                    isNotFoundError: function() {
+                    isNotFoundError: function () {
                         return isNotFoundError
                     }
                 });
@@ -638,41 +666,41 @@
 
             function isNotFoundError(e) {
                 return (null == e ? void 0 : e.digest) === r
-            }("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
+            } ("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
                 value: !0
             }), Object.assign(t.default, t), e.exports = t.default)
         },
-        7866: function(e, t, r) {
+        7866: function (e, t, r) {
             "use strict";
             var n, o;
             Object.defineProperty(t, "__esModule", {
-                    value: !0
-                }),
-                function(e, t) {
+                value: !0
+            }),
+                function (e, t) {
                     for (var r in t) Object.defineProperty(e, r, {
                         enumerable: !0,
                         get: t[r]
                     })
                 }(t, {
-                    RedirectType: function() {
+                    RedirectType: function () {
                         return n
                     },
-                    getRedirectError: function() {
+                    getRedirectError: function () {
                         return getRedirectError
                     },
-                    redirect: function() {
+                    redirect: function () {
                         return redirect
                     },
-                    permanentRedirect: function() {
+                    permanentRedirect: function () {
                         return permanentRedirect
                     },
-                    isRedirectError: function() {
+                    isRedirectError: function () {
                         return isRedirectError
                     },
-                    getURLFromRedirectError: function() {
+                    getURLFromRedirectError: function () {
                         return getURLFromRedirectError
                     },
-                    getRedirectTypeFromError: function() {
+                    getRedirectTypeFromError: function () {
                         return getRedirectTypeFromError
                     }
                 });
@@ -696,7 +724,7 @@
             }
 
             function isRedirectError(e) {
-                if ("string" != typeof(null == e ? void 0 : e.digest)) return !1;
+                if ("string" != typeof (null == e ? void 0 : e.digest)) return !1;
                 let [t, r, n, o] = e.digest.split(";", 4);
                 return t === i && ("replace" === r || "push" === r) && "string" == typeof n && ("true" === o || "false" === o)
             }
@@ -708,17 +736,17 @@
             function getRedirectTypeFromError(e) {
                 if (!isRedirectError(e)) throw Error("Not a redirect error");
                 return e.digest.split(";", 3)[1]
-            }(o = n || (n = {})).push = "push", o.replace = "replace", ("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
+            } (o = n || (n = {})).push = "push", o.replace = "replace", ("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
                 value: !0
             }), Object.assign(t.default, t), e.exports = t.default)
         },
-        3743: function(e, t, r) {
+        3743: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
             }), Object.defineProperty(t, "requestAsyncStorage", {
                 enumerable: !0,
-                get: function() {
+                get: function () {
                     return o
                 }
             });
@@ -728,7 +756,7 @@
                 value: !0
             }), Object.assign(t.default, t), e.exports = t.default)
         },
-        6160: function(e, t) {
+        6160: function (e, t) {
             "use strict";
 
             function getSegmentValue(e) {
@@ -738,28 +766,28 @@
                 value: !0
             }), Object.defineProperty(t, "getSegmentValue", {
                 enumerable: !0,
-                get: function() {
+                get: function () {
                     return getSegmentValue
                 }
             }), ("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
                 value: !0
             }), Object.assign(t.default, t), e.exports = t.default)
         },
-        252: function(e, t, r) {
+        252: function (e, t, r) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
-                    value: !0
-                }),
-                function(e, t) {
+                value: !0
+            }),
+                function (e, t) {
                     for (var r in t) Object.defineProperty(e, r, {
                         enumerable: !0,
                         get: t[r]
                     })
                 }(t, {
-                    ServerInsertedHTMLContext: function() {
+                    ServerInsertedHTMLContext: function () {
                         return a
                     },
-                    useServerInsertedHTML: function() {
+                    useServerInsertedHTML: function () {
                         return useServerInsertedHTML
                     }
                 });
@@ -772,10 +800,10 @@
                 t && t(e)
             }
         },
-        6747: function(e, t, r) {
+        6747: function (e, t, r) {
             "use strict";
             r.r(t), r.d(t, {
-                default: function() {
+                default: function () {
                     return App
                 }
             });
@@ -783,7 +811,7 @@
             r(2352);
             var o = r(7294),
                 initQueue = () => {
-                    window.va || (window.va = function(...e) {
+                    window.va || (window.va = function (...e) {
                         (window.vaq = window.vaq || []).push(e)
                     })
                 };
@@ -797,7 +825,7 @@
             }
 
             function isDevelopment() {
-                return "development" === function() {
+                return "development" === function () {
                     let e = isBrowser() ? window.vam : detectEnvironment();
                     return e || "production"
                 }()
@@ -809,12 +837,12 @@
                 mode: r = "auto"
             }) {
                 return (0, o.useEffect)(() => {
-                    ! function(e = {
+                    ! function (e = {
                         debug: !0
                     }) {
                         var t;
                         if (!isBrowser()) return;
-                        (function(e = "auto") {
+                        (function (e = "auto") {
                             if ("auto" === e) {
                                 window.vam = detectEnvironment();
                                 return
@@ -842,7 +870,7 @@
                 u = r.n(s),
                 p = r(9332),
                 next_initQueue = () => {
-                    window.si || (window.si = function(...e) {
+                    window.si || (window.si = function (...e) {
                         (window.siq = window.siq || []).push(e)
                     })
                 };
@@ -859,7 +887,7 @@
                 return (0, o.useEffect)(() => {
                     if (t.current) e.route && t.current(e.route);
                     else {
-                        let r = function(e) {
+                        let r = function (e) {
                             var t;
                             if (!("undefined" != typeof window) || null === e.route) return null;
                             next_initQueue();
@@ -890,7 +918,7 @@
                     n = (0, o.useMemo)(() => e ? 0 !== Object.keys(e).length ? e : {
                         ...Object.fromEntries(t.entries())
                     } : null, [e, t]);
-                return function(e, t) {
+                return function (e, t) {
                     if (!e || !t) return e;
                     let r = e;
                     try {
@@ -898,7 +926,7 @@
                             let t = Array.isArray(n),
                                 o = t ? n.join("/") : n,
                                 a = t ? `...${e}` : e,
-                                i = RegExp(`/${o.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")}(?=[/?#]|$)`);
+                                i = RegExp(`/${o.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}(?=[/?#]|$)`);
                             i.test(r) && (r = r.replace(i, `/[${a}]`))
                         }
                         return r
@@ -938,7 +966,8 @@
                         }],
                         additionalLinkTags: [{
                             rel: "icon",
-                            href: "/fav-icon.png"
+                            // href: "/fav-icon.png"
+                            href: "/assets/header-logo/orgitech_logo.png"
                         }, {
                             rel: "preload",
                             href: "/assets/fonts/clash-display/ClashDisplay-Regular.woff2",
@@ -951,66 +980,68 @@
                             locale: "en_US"
                         },
                         twitter: {
-                            site: "_EnigmaDigital",
-                            cardType: "summary_large_image"
+                            site: "",
+                            cardType: ""
                         }
                     }), (0, n.jsxs)(u(), {
                         children: [(0, n.jsx)("meta", {
                             charSet: "utf-8"
                         }), (0, n.jsx)("script", {
-                            type: "application/ld+json",
+                            // type: "application/ld+json",
+                            type: "",
                             dangerouslySetInnerHTML: {
                                 __html: JSON.stringify({
-                                    "@context": "https://schema.org",
-                                    "@type": "Organization",
-                                    name: "Enigma Digital",
-                                    url: "https://weareenigma.com/",
-                                    logo: "https://weareenigma.com/assets/header-logo/enigma-en-logo.svg",
-                                    sameAs: ["https://www.instagram.com/enigmadigital/", "https://in.linkedin.com/company/enigma-digital-product-design-ui-ux-neuromarketing", "https://www.facebook.com/in.enigmadigital", "https://twitter.com/_EnigmaDigital"]
+                                    "@context": "",
+                                    "@type": "",
+                                    name: "",
+                                    url: "",
+                                    logo: "",
+                                    sameAs: [""]
                                 })
                             }
                         }), (0, n.jsx)("script", {
-                            type: "application/ld+json",
+                            // type: "application/ld+json",
+                            type: "",
                             dangerouslySetInnerHTML: {
                                 __html: JSON.stringify({
-                                    "@context": "http://schema.org",
+                                    "@context": "",
                                     "@type": "ItemList",
                                     itemListElement: [{
                                         "@type": "SiteNavigationElement",
                                         position: 1,
                                         name: "About",
                                         description: "Enigma is a team of creators, discoverers, dreamers, & doers, crafting exceptional digital experiences. We are India's leading UI UX design & marketing agency.",
-                                        url: "https://weareenigma.com/who-we-are"
+                                        url: ""
                                     }, {
                                         "@type": "SiteNavigationElement",
                                         position: 2,
                                         name: "Services",
                                         description: "Enigma offers UI UX design, Web Design, Mobile App Design, Frontend Development and Organic Digital Marketing Services. See how we can help your business grow.",
-                                        url: "https://weareenigma.com/services"
+                                        url: ""
                                     }, {
                                         "@type": "SiteNavigationElement",
                                         position: 3,
                                         name: "Works",
                                         description: "Explore Enigma's portfolio, a showcase of our diverse services in UI/UX design, branding, and web development, driving exceptional results.",
-                                        url: "https://weareenigma.com/our-portfolio"
+                                        url: ""
                                     }, {
                                         "@type": "SiteNavigationElement",
                                         position: 4,
                                         name: "Insights",
                                         description: "Dive into our curated collection of articles on UI/UX Design, Digital Marketing, Technology & Human Psychology. Stay updated with the latest trends.",
-                                        url: "https://weareenigma.com/blog"
+                                        url: ""
                                     }, {
                                         "@type": "SiteNavigationElement",
                                         position: 5,
                                         name: "Careers",
                                         description: "Experience top-tier UI/UX design, front-end development, and organic marketing jobs with Enigma Digital. Find The Right Jobs",
-                                        url: "https://weareenigma.com/careers"
+                                        url: ""
                                     }, {
                                         "@type": "SiteNavigationElement",
                                         position: 6,
                                         name: "Contact",
                                         description: "Contact Enigma for top-tier UI/UX design, front-end development, and organic digital marketing solutions. Let's collaborate and ascend your digital presence.",
-                                        url: "https://weareenigma.com/get-in-touch"
+                                        url: ""
                                     }]
                                 })
                             }
@@ -1020,35 +1051,38 @@
                     }), (0, n.jsx)(SpeedInsights2, {}), (0, n.jsx)(Analytics, {}), (0, n.jsx)(i(), {
                         strategy: "worker",
                         id: "ms-clarity",
-                        children: '\n            (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "josmn10ai7");\n          '
+                        // children: '\n            (function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);})(window, document, "clarity", "script", "josmn10ai7");\n          '
+                        children: ''
                     }), (0, n.jsx)(i(), {
                         async: !0,
                         strategy: "worker",
-                        src: "https://www.googletagmanager.com/gtag/js?id=G-PKJE9LVB35"
+                        // src: "https://www.googletagmanager.com/gtag/js?id=G-PKJE9LVB35"
+                        src: ""
                     }), (0, n.jsxs)(i(), {
                         strategy: "worker",
-                        id: "google-analytics",
-                        children: ["          ", " window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n            gtag('config', 'G-7C8S5767C3', {\n              page_path: window.location.pathname,\n            });\n          "]
+                        id: "",
+                        // id: "google-analytics",
+                        children: ["", ""]
                     })]
                 })
             }
         },
-        2352: function() {},
-        9008: function(e, t, r) {
+        2352: function () { },
+        9008: function (e, t, r) {
             e.exports = r(9201)
         },
-        9332: function(e, t, r) {
+        9332: function (e, t, r) {
             e.exports = r(636)
         },
-        4298: function(e, t, r) {
+        4298: function (e, t, r) {
             e.exports = r(5354)
         }
     },
-    function(e) {
-        var __webpack_exec__ = function(t) {
+    function (e) {
+        var __webpack_exec__ = function (t) {
             return e(e.s = t)
         };
-        e.O(0, [9774, 179], function() {
+        e.O(0, [9774, 179], function () {
             return __webpack_exec__(1118), __webpack_exec__(9974)
         }), _N_E = e.O()
     }

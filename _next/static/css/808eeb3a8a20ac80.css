@@ -1339,7 +1339,8 @@ video {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    --primary: #5d5ad6;
+    --primary: #21A391;
+    /* --primary: #5d5ad6; */
     --black: #000;
     --black1: #1a1a1a;
     --black4: #1f1f1f;
@@ -2333,7 +2334,7 @@ button:focus {
 }
 
 .header-section .header-logo .main-logo {
-    width: 2.3vw;
+    width: 3vw;
     height: 100%;
     z-index: 999
 }

@@ -1,25 +1,25 @@
 (self.webpackChunk_N_E = self.webpackChunk_N_E || []).push([
     [5405], {
-        5557: function(e, t, s) {
-            (window.__NEXT_P = window.__NEXT_P || []).push(["/", function() {
+        5557: function (e, t, s) {
+            (window.__NEXT_P = window.__NEXT_P || []).push(["/", function () {
                 return s(8904)
             }])
         },
-        1342: function(e, t, s) {
+        1342: function (e, t, s) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
-                    value: !0
-                }),
-                function(e, t) {
+                value: !0
+            }),
+                function (e, t) {
                     for (var s in t) Object.defineProperty(e, s, {
                         enumerable: !0,
                         get: t[s]
                     })
                 }(t, {
-                    noSSR: function() {
+                    noSSR: function () {
                         return noSSR
                     },
-                    default: function() {
+                    default: function () {
                         return dynamic
                     }
                 });
@@ -63,17 +63,17 @@
                     ...i,
                     loader: () => null != r ? r().then(convertModule) : Promise.resolve(convertModule(() => null))
                 }) : (delete i.webpack, delete i.modules, noSSR(s, i))
-            }("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
+            } ("function" == typeof t.default || "object" == typeof t.default && null !== t.default) && void 0 === t.default.__esModule && (Object.defineProperty(t.default, "__esModule", {
                 value: !0
             }), Object.assign(t.default, t), e.exports = t.default)
         },
-        43: function(e, t, s) {
+        43: function (e, t, s) {
             "use strict";
             Object.defineProperty(t, "__esModule", {
                 value: !0
             }), Object.defineProperty(t, "LoadableContext", {
                 enumerable: !0,
-                get: function() {
+                get: function () {
                     return r
                 }
             });
@@ -81,7 +81,7 @@
                 a = i._(s(7294)),
                 r = a.default.createContext(null)
         },
-        4304: function(e, t, s) {
+        4304: function (e, t, s) {
             "use strict";
             /**
             @copyright (c) 2017-present James Kyle <me@thejameskyle.com>
@@ -107,7 +107,7 @@
                 value: !0
             }), Object.defineProperty(t, "default", {
                 enumerable: !0,
-                get: function() {
+                get: function () {
                     return c
                 }
             });
@@ -182,15 +182,15 @@
             };
 
             function Loadable(e) {
-                return function(e, t) {
+                return function (e, t) {
                     let s = Object.assign({
-                            loader: null,
-                            loading: null,
-                            delay: 200,
-                            timeout: null,
-                            webpack: null,
-                            modules: null
-                        }, t),
+                        loader: null,
+                        loading: null,
+                        delay: 200,
+                        timeout: null,
+                        webpack: null,
+                        modules: null
+                    }, t),
                         i = null;
 
                     function init() {
@@ -214,7 +214,7 @@
                     }
 
                     function LoadableComponent(e, t) {
-                        ! function() {
+                        ! function () {
                             init();
                             let e = a.default.useContext(r.LoadableContext);
                             e && Array.isArray(s.modules) && s.modules.forEach(t => {
@@ -257,10 +257,10 @@
             })), window.__NEXT_PRELOADREADY = Loadable.preloadReady;
             let c = Loadable
         },
-        4791: function(e, t, s) {
+        4791: function (e, t, s) {
             "use strict";
             s.d(t, {
-                Z: function() {
+                Z: function () {
                     return Modal
                 }
             });
@@ -382,10 +382,10 @@
                 })
             }
         },
-        5793: function(e, t, s) {
+        5793: function (e, t, s) {
             "use strict";
             s.d(t, {
-                Z: function() {
+                Z: function () {
                     return Index
                 }
             });
@@ -408,11 +408,11 @@
                 } = e;
                 (0, d.useEffect)(() => {
                     let e = p.p8.timeline({
-                            scrollTrigger: {
-                                trigger: "#doubleContainer",
-                                start: "top 80%"
-                            }
-                        }),
+                        scrollTrigger: {
+                            trigger: "#doubleContainer",
+                            start: "top 80%"
+                        }
+                    }),
                         t = document.querySelectorAll("#doubleImage");
                     e.fromTo(t, {
                         opacity: 0,
@@ -521,10 +521,13 @@
                 nullTargetWarn: !1
             })
         },
-        3798: function(e, t, s) {
+        // /////////////////////////////
+        // selected projects section
+        // /////////////////////////////
+        3798: function (e, t, s) {
             "use strict";
             s.d(t, {
-                q: function() {
+                q: function () {
                     return i
                 }
             });
@@ -610,13 +613,14 @@
                 srcSLider: "patra.webp"
             }]
         },
-        8904: function(e, t, s) {
+
+        8904: function (e, t, s) {
             "use strict";
             s.r(t), s.d(t, {
-                __N_SSG: function() {
+                __N_SSG: function () {
                     return R
                 },
-                default: function() {
+                default: function () {
                     return Home
                 }
             });
@@ -815,11 +819,11 @@
                     })
                 }, []), (0, l.useEffect)(() => {
                     let e = c.ZP.timeline({
-                            scrollTrigger: {
-                                trigger: ".aero-hover",
-                                start: "-200 top"
-                            }
-                        }),
+                        scrollTrigger: {
+                            trigger: ".aero-hover",
+                            start: "-200 top"
+                        }
+                    }),
                         t = document.querySelectorAll(".aero-demo p");
                     e.fromTo(t, {
                         opacity: 0,
@@ -996,7 +1000,8 @@
                                         children: "timezone"
                                     }), (0, i.jsx)("div", {
                                         className: "f-heading",
-                                        children: "+5:30 GMT"
+                                        // children: "+5:30 GMT"
+                                        children: "GMT-8"
                                     })]
                                 })
                             }), (0, i.jsxs)("div", {
@@ -1006,7 +1011,7 @@
                                     children: "location"
                                 }), (0, i.jsx)("div", {
                                     className: "f-heading",
-                                    children: "Noida - India"
+                                    children: "California - US"
                                 })]
                             })]
                         })]
@@ -1064,249 +1069,258 @@
                             id: "services",
                             children: (0, i.jsx)("div", {
                                 className: "container",
-                                children: (0, i.jsx)("div", {
-                                    className: "accordion-container flex-column-center",
-                                    children: (0, i.jsxs)("ul", {
-                                        className: "accordion-list accordion",
-                                        children: [(0, i.jsxs)("li", {
-                                            className: "accordion-list-item",
-                                            children: [(0, i.jsx)("div", {
-                                                className: "accordion-title accordion-item cat-1",
-                                                children: (0, i.jsxs)("div", {
-                                                    className: "accordion-item-content",
-                                                    children: [(0, i.jsx)("span", {
-                                                        children: "01"
-                                                    }), (0, i.jsx)("h2", {
-                                                        className: "text-stroke-fil-ctr",
-                                                        "data-fill": "Strategy",
-                                                        children: "Strategy"
-                                                    }), (0, i.jsxs)("button", {
-                                                        "aria-label": "No Work",
-                                                        className: "plus-rotate",
+                                children: (0, i.jsx)("div",
+
+                                    {
+                                        className: "accordion-container flex-column-center",
+                                        children: (0, i.jsxs)("ul", {
+                                            className: "accordion-list accordion",
+
+                                            children: [(0, i.jsxs)("li", {
+                                                className: "accordion-list-item",
+                                                children: [(0, i.jsx)("div", {
+                                                    className: "accordion-title accordion-item cat-1",
+                                                    children: (0, i.jsxs)("div", {
+                                                        className: "accordion-item-content",
                                                         children: [(0, i.jsx)("span", {
-                                                            className: "minus-span"
-                                                        }), (0, i.jsx)("img", {
-                                                            loading: "lazy",
-                                                            className: "plus-img",
-                                                            src: "/assets/icons/plus.png",
-                                                            width: 40,
-                                                            height: 40,
-                                                            alt: "Plus Icon"
-                                                        }), (0, i.jsx)("span", {
-                                                            className: "bottom-span"
-                                                        })]
-                                                    }), (0, i.jsxs)("div", {
-                                                        className: "cont",
-                                                        children: [(0, i.jsx)("p", {
-                                                            children: "Strategic planning based on insight is the starting point of everything we do. Combining strategic thinking, wide marketing experience, insights, best practices, and sound judgment, we craft effective strategies that turn insights into measurable results."
-                                                        }), (0, i.jsx)("p", {
-                                                            children: "Driving growth and success for your brand needs a brilliant plan (roadmap) that is rooted in deep insights and aimed at delivering tangible results. Our strategy consulting services includes: Digital Advisory and Consulting, Integrated Digital Marketing Plan (D.M.P.), User Experience Development, Customer Experience Strategy, Consumer Research, Insights & Target Market Analysis, Digital Capabilities Development, Persona Design & Customer Segmentation, Digital Marketing and Website Performance Audit."
-                                                        })]
-                                                    }), (0, i.jsx)("div", {
-                                                        className: "category-button",
-                                                        children: (0, i.jsxs)("a", {
-                                                            href: "/strategy-and-planning-services",
-                                                            "data-cursor-size": "80px",
-                                                            "data-cursor-exclusion": !0,
+                                                            children: "01"
+                                                        }), (0, i.jsx)("h2", {
+                                                            className: "text-stroke-fil-ctr",
+                                                            "data-fill": "Strategy",
+                                                            children: "Strategy"
+                                                        }), (0, i.jsxs)("button", {
+                                                            "aria-label": "No Work",
+                                                            className: "plus-rotate",
                                                             children: [(0, i.jsx)("span", {
-                                                                className: "cat-btn-text",
-                                                                children: "Transform Your Business"
+                                                                className: "minus-span"
+                                                            }), (0, i.jsx)("img", {
+                                                                loading: "lazy",
+                                                                className: "plus-img",
+                                                                src: "/assets/icons/plus.png",
+                                                                width: 40,
+                                                                height: 40,
+                                                                alt: "Plus Icon"
                                                             }), (0, i.jsx)("span", {
-                                                                className: "cat-btn-arrow",
-                                                                children: (0, i.jsx)("img", {
-                                                                    loading: "lazy",
-                                                                    width: 15,
-                                                                    height: 15,
-                                                                    src: "/assets/icons/arrow.png",
-                                                                    alt: "Icon"
-                                                                })
+                                                                className: "bottom-span"
                                                             })]
-                                                        })
-                                                    })]
-                                                })
-                                            }), (0, i.jsx)("div", {
-                                                className: "line-animation category-line cat-one-1"
-                                            })]
-                                        }), (0, i.jsxs)("li", {
-                                            className: "accordion-list-item",
-                                            children: [(0, i.jsx)("div", {
-                                                className: "accordion-title accordion-item cat-2",
-                                                children: (0, i.jsxs)("div", {
-                                                    className: "accordion-item-content",
-                                                    children: [(0, i.jsx)("span", {
-                                                        children: "02"
-                                                    }), (0, i.jsx)("h2", {
-                                                        className: "text-stroke-fil-ctr",
-                                                        "data-fill": "UI/UX Design",
-                                                        children: "UI/UX Design"
-                                                    }), (0, i.jsxs)("button", {
-                                                        "aria-label": "No Work",
-                                                        className: "plus-rotate",
+                                                        }), (0, i.jsxs)("div", {
+                                                            className: "cont",
+                                                            children: [(0, i.jsx)("p", {
+                                                                children: "Strategic planning based on insight is the starting point of everything we do. Combining strategic thinking, wide marketing experience, insights, best practices, and sound judgment, we craft effective strategies that turn insights into measurable results."
+                                                            }), (0, i.jsx)("p", {
+                                                                children: "Driving growth and success for your brand needs a brilliant plan (roadmap) that is rooted in deep insights and aimed at delivering tangible results. Our strategy consulting services includes: Digital Advisory and Consulting, Integrated Digital Marketing Plan (D.M.P.), User Experience Development, Customer Experience Strategy, Consumer Research, Insights & Target Market Analysis, Digital Capabilities Development, Persona Design & Customer Segmentation, Digital Marketing and Website Performance Audit."
+                                                            })]
+                                                        }), (0, i.jsx)("div", {
+                                                            className: "category-button",
+                                                            children: (0, i.jsxs)("a", {
+                                                                href: "/strategy-and-planning-services",
+                                                                "data-cursor-size": "80px",
+                                                                "data-cursor-exclusion": !0,
+                                                                children: [(0, i.jsx)("span", {
+                                                                    className: "cat-btn-text",
+                                                                    children: "Transform Your Business"
+                                                                }), (0, i.jsx)("span", {
+                                                                    className: "cat-btn-arrow",
+                                                                    children: (0, i.jsx)("img", {
+                                                                        loading: "lazy",
+                                                                        width: 15,
+                                                                        height: 15,
+                                                                        src: "/assets/icons/arrow.png",
+                                                                        alt: "Icon"
+                                                                    })
+                                                                })]
+                                                            })
+                                                        })]
+                                                    })
+                                                }), (0, i.jsx)("div", {
+                                                    className: "line-animation category-line cat-one-1"
+                                                })]
+                                            }),
+
+                                            (0, i.jsxs)("li", {
+                                                className: "accordion-list-item",
+                                                children: [(0, i.jsx)("div", {
+                                                    className: "accordion-title accordion-item cat-2",
+                                                    children: (0, i.jsxs)("div", {
+                                                        className: "accordion-item-content",
                                                         children: [(0, i.jsx)("span", {
-                                                            className: "minus-span"
-                                                        }), (0, i.jsx)("img", {
-                                                            className: "plus-img",
-                                                            src: "/assets/icons/plus.png",
-                                                            loading: "lazy",
-                                                            width: 40,
-                                                            height: 40,
-                                                            alt: "Plus Icon"
-                                                        }), (0, i.jsx)("span", {
-                                                            className: "bottom-span"
-                                                        })]
-                                                    }), (0, i.jsxs)("div", {
-                                                        className: "cont",
-                                                        children: [(0, i.jsx)("p", {
-                                                            children: "We unravel complex design challenges through meticulous user research, expert analysis, prototyping, and collaborative design with users and stakeholders. Harnessing the power of cutting-edge tools and our proprietary approach we craft delightful and intuitive experiences that seamlessly connect the physical and digital worlds."
-                                                        }), (0, i.jsxs)("p", {
-                                                            children: [(0, i.jsx)("strong", {}), " Our design services are a symphony of creativity and functionality, creating digital experiences that captivate and engage. Services we offer include: User Interface Design, User Experience Design, Responsive Web Design, Mobile App Design, Digital Interface Design, Design Systems Creation, Experience Mapping, User Flow Mapping, Wireframing & Prototyping, Illustrations & Animations, Visual Designs."]
-                                                        })]
-                                                    }), (0, i.jsx)("div", {
-                                                        className: "category-button",
-                                                        children: (0, i.jsxs)("a", {
-                                                            href: "/ui-ux-design-services",
-                                                            "data-cursor-size": "80px",
-                                                            "data-cursor-exclusion": !0,
+                                                            children: "02"
+                                                        }), (0, i.jsx)("h2", {
+                                                            className: "text-stroke-fil-ctr",
+                                                            "data-fill": "UI/UX Design",
+                                                            children: "UI/UX Design"
+                                                        }), (0, i.jsxs)("button", {
+                                                            "aria-label": "No Work",
+                                                            className: "plus-rotate",
                                                             children: [(0, i.jsx)("span", {
-                                                                className: "cat-btn-text",
-                                                                children: "Upgrade Your Experience"
+                                                                className: "minus-span"
+                                                            }), (0, i.jsx)("img", {
+                                                                className: "plus-img",
+                                                                src: "/assets/icons/plus.png",
+                                                                loading: "lazy",
+                                                                width: 40,
+                                                                height: 40,
+                                                                alt: "Plus Icon"
                                                             }), (0, i.jsx)("span", {
-                                                                className: "cat-btn-arrow",
-                                                                children: (0, i.jsx)("img", {
-                                                                    width: 15,
-                                                                    height: 15,
-                                                                    src: "/assets/icons/arrow.png",
-                                                                    loading: "lazy",
-                                                                    alt: "Icon"
-                                                                })
+                                                                className: "bottom-span"
                                                             })]
-                                                        })
-                                                    })]
-                                                })
-                                            }), (0, i.jsx)("div", {
-                                                className: "line-animation category-line cat-one-2"
-                                            })]
-                                        }), (0, i.jsxs)("li", {
-                                            className: "accordion-list-item",
-                                            children: [(0, i.jsx)("div", {
-                                                className: "accordion-title accordion-item cat-3",
-                                                children: (0, i.jsxs)("div", {
-                                                    className: "accordion-item-content",
-                                                    children: [(0, i.jsx)("span", {
-                                                        children: "03"
-                                                    }), (0, i.jsx)("h2", {
-                                                        className: "text-stroke-fil-ctr",
-                                                        "data-fill": "Technology",
-                                                        children: "Technology"
-                                                    }), (0, i.jsxs)("button", {
-                                                        "aria-label": "No Work",
-                                                        className: "plus-rotate",
+                                                        }), (0, i.jsxs)("div", {
+                                                            className: "cont",
+                                                            children: [(0, i.jsx)("p", {
+                                                                children: "We unravel complex design challenges through meticulous user research, expert analysis, prototyping, and collaborative design with users and stakeholders. Harnessing the power of cutting-edge tools and our proprietary approach we craft delightful and intuitive experiences that seamlessly connect the physical and digital worlds."
+                                                            }), (0, i.jsxs)("p", {
+                                                                children: [(0, i.jsx)("strong", {}), " Our design services are a symphony of creativity and functionality, creating digital experiences that captivate and engage. Services we offer include: User Interface Design, User Experience Design, Responsive Web Design, Mobile App Design, Digital Interface Design, Design Systems Creation, Experience Mapping, User Flow Mapping, Wireframing & Prototyping, Illustrations & Animations, Visual Designs."]
+                                                            })]
+                                                        }), (0, i.jsx)("div", {
+                                                            className: "category-button",
+                                                            children: (0, i.jsxs)("a", {
+                                                                href: "/ui-ux-design-services",
+                                                                "data-cursor-size": "80px",
+                                                                "data-cursor-exclusion": !0,
+                                                                children: [(0, i.jsx)("span", {
+                                                                    className: "cat-btn-text",
+                                                                    children: "Upgrade Your Experience"
+                                                                }), (0, i.jsx)("span", {
+                                                                    className: "cat-btn-arrow",
+                                                                    children: (0, i.jsx)("img", {
+                                                                        width: 15,
+                                                                        height: 15,
+                                                                        src: "/assets/icons/arrow.png",
+                                                                        loading: "lazy",
+                                                                        alt: "Icon"
+                                                                    })
+                                                                })]
+                                                            })
+                                                        })]
+                                                    })
+                                                }), (0, i.jsx)("div", {
+                                                    className: "line-animation category-line cat-one-2"
+                                                })]
+                                            }),
+
+                                            (0, i.jsxs)("li", {
+                                                className: "accordion-list-item",
+                                                children: [(0, i.jsx)("div", {
+                                                    className: "accordion-title accordion-item cat-3",
+                                                    children: (0, i.jsxs)("div", {
+                                                        className: "accordion-item-content",
                                                         children: [(0, i.jsx)("span", {
-                                                            className: "minus-span"
-                                                        }), (0, i.jsx)("img", {
-                                                            className: "plus-img",
-                                                            src: "/assets/icons/plus.png",
-                                                            loading: "lazy",
-                                                            width: 40,
-                                                            height: 40,
-                                                            alt: "Plus Icon"
-                                                        }), (0, i.jsx)("span", {
-                                                            className: "bottom-span"
-                                                        })]
-                                                    }), (0, i.jsxs)("div", {
-                                                        className: "cont",
-                                                        children: [(0, i.jsx)("p", {
-                                                            children: "A human-centred, design-led approach to product development that leverages cutting-edge technologies & agile methodology, committed to putting you on a path to success in the ever-changing technological landscape."
-                                                        }), (0, i.jsx)("p", {
-                                                            children: "We craft digital solutions that are not just functional, but also intuitive and engaging. Our front-end development services include: HTML, CSS, JavaScript, Vue, React, Angular, GSAP, and WordPress. For mobile application development, we utilize technologies like Ionic and Flutter. On the server-side, we leverage PHP, NodeJS and Python to create robust back-ends."
-                                                        })]
-                                                    }), (0, i.jsx)("div", {
-                                                        className: "category-button",
-                                                        children: (0, i.jsxs)("a", {
-                                                            href: "/technology-services",
-                                                            "data-cursor-size": "80px",
-                                                            "data-cursor-exclusion": !0,
+                                                            children: "03"
+                                                        }), (0, i.jsx)("h2", {
+                                                            className: "text-stroke-fil-ctr",
+                                                            "data-fill": "Technology",
+                                                            children: "Technology"
+                                                        }), (0, i.jsxs)("button", {
+                                                            "aria-label": "No Work",
+                                                            className: "plus-rotate",
                                                             children: [(0, i.jsx)("span", {
-                                                                className: "cat-btn-text",
-                                                                children: "Let’s Build Your Idea"
+                                                                className: "minus-span"
+                                                            }), (0, i.jsx)("img", {
+                                                                className: "plus-img",
+                                                                src: "/assets/icons/plus.png",
+                                                                loading: "lazy",
+                                                                width: 40,
+                                                                height: 40,
+                                                                alt: "Plus Icon"
                                                             }), (0, i.jsx)("span", {
-                                                                className: "cat-btn-arrow",
-                                                                children: (0, i.jsx)("img", {
-                                                                    width: 15,
-                                                                    height: 15,
-                                                                    src: "/assets/icons/arrow.png",
-                                                                    loading: "lazy",
-                                                                    alt: "Icon"
-                                                                })
+                                                                className: "bottom-span"
                                                             })]
-                                                        })
-                                                    })]
-                                                })
-                                            }), (0, i.jsx)("div", {
-                                                className: "line-animation category-line cat-line-3"
-                                            })]
-                                        }), (0, i.jsxs)("li", {
-                                            className: "accordion-list-item",
-                                            children: [(0, i.jsx)("div", {
-                                                className: "accordion-title accordion-item cat-4",
-                                                children: (0, i.jsxs)("div", {
-                                                    className: "accordion-item-content",
-                                                    children: [(0, i.jsx)("span", {
-                                                        children: "04"
-                                                    }), (0, i.jsx)("h2", {
-                                                        className: "text-stroke-fil-ctr",
-                                                        "data-fill": "Marketing",
-                                                        children: "Marketing"
-                                                    }), (0, i.jsxs)("button", {
-                                                        "aria-label": "No Work",
-                                                        className: "plus-rotate",
+                                                        }), (0, i.jsxs)("div", {
+                                                            className: "cont",
+                                                            children: [(0, i.jsx)("p", {
+                                                                children: "A human-centred, design-led approach to product development that leverages cutting-edge technologies & agile methodology, committed to putting you on a path to success in the ever-changing technological landscape."
+                                                            }), (0, i.jsx)("p", {
+                                                                children: "We craft digital solutions that are not just functional, but also intuitive and engaging. Our front-end development services include: HTML, CSS, JavaScript, Vue, React, Angular, GSAP, and WordPress. For mobile application development, we utilize technologies like Ionic and Flutter. On the server-side, we leverage PHP, NodeJS and Python to create robust back-ends."
+                                                            })]
+                                                        }), (0, i.jsx)("div", {
+                                                            className: "category-button",
+                                                            children: (0, i.jsxs)("a", {
+                                                                href: "/technology-services",
+                                                                "data-cursor-size": "80px",
+                                                                "data-cursor-exclusion": !0,
+                                                                children: [(0, i.jsx)("span", {
+                                                                    className: "cat-btn-text",
+                                                                    children: "Let’s Build Your Idea"
+                                                                }), (0, i.jsx)("span", {
+                                                                    className: "cat-btn-arrow",
+                                                                    children: (0, i.jsx)("img", {
+                                                                        width: 15,
+                                                                        height: 15,
+                                                                        src: "/assets/icons/arrow.png",
+                                                                        loading: "lazy",
+                                                                        alt: "Icon"
+                                                                    })
+                                                                })]
+                                                            })
+                                                        })]
+                                                    })
+                                                }), (0, i.jsx)("div", {
+                                                    className: "line-animation category-line cat-line-3"
+                                                })]
+                                            }),
+
+                                            (0, i.jsxs)("li", {
+                                                className: "accordion-list-item",
+                                                children: [(0, i.jsx)("div", {
+                                                    className: "accordion-title accordion-item cat-4",
+                                                    children: (0, i.jsxs)("div", {
+                                                        className: "accordion-item-content",
                                                         children: [(0, i.jsx)("span", {
-                                                            className: "minus-span"
-                                                        }), (0, i.jsx)("img", {
-                                                            className: "plus-img",
-                                                            src: "/assets/icons/plus.png",
-                                                            width: 40,
-                                                            height: 40,
-                                                            loading: "lazy",
-                                                            alt: "Plus Icon"
-                                                        }), (0, i.jsx)("span", {
-                                                            className: "bottom-span"
-                                                        })]
-                                                    }), (0, i.jsxs)("div", {
-                                                        className: "cont",
-                                                        children: [(0, i.jsx)("p", {
-                                                            children: "Our marketing strategies are not just designed to create a lasting impact, but to drive engagement, foster brand loyalty, and navigate the ever-evolving digital landscape with finesse and agility."
-                                                        }), (0, i.jsx)("p", {
-                                                            children: "For us, 'DIGITAL' isn't just a buzzword—it's the path to the future! This belief has shaped our service offerings to evolve for our clients' requirements & subsequently their success. We offer: Social Media Management, Content Creation & Curation, Search Engine Optimisation, Influencer Management, Online Reputation Management, Marketing Automation, Email Marketing, Conversion Rate Optimisation and Website & SEO Analysis."
-                                                        })]
-                                                    }), (0, i.jsx)("div", {
-                                                        className: "category-button",
-                                                        children: (0, i.jsxs)("a", {
-                                                            href: "/organic-digital-marketing-services",
-                                                            "data-cursor-size": "80px",
-                                                            "data-cursor-exclusion": !0,
+                                                            children: "04"
+                                                        }), (0, i.jsx)("h2", {
+                                                            className: "text-stroke-fil-ctr",
+                                                            "data-fill": "Marketing",
+                                                            children: "Marketing"
+                                                        }), (0, i.jsxs)("button", {
+                                                            "aria-label": "No Work",
+                                                            className: "plus-rotate",
                                                             children: [(0, i.jsx)("span", {
-                                                                className: "cat-btn-text",
-                                                                children: "Ready? Let’s Get Moving"
+                                                                className: "minus-span"
+                                                            }), (0, i.jsx)("img", {
+                                                                className: "plus-img",
+                                                                src: "/assets/icons/plus.png",
+                                                                width: 40,
+                                                                height: 40,
+                                                                loading: "lazy",
+                                                                alt: "Plus Icon"
                                                             }), (0, i.jsx)("span", {
-                                                                className: "cat-btn-arrow",
-                                                                children: (0, i.jsx)("img", {
-                                                                    width: 15,
-                                                                    height: 15,
-                                                                    src: "/assets/icons/arrow.png",
-                                                                    loading: "lazy",
-                                                                    alt: "Icon"
-                                                                })
+                                                                className: "bottom-span"
                                                             })]
-                                                        })
-                                                    })]
-                                                })
-                                            }), (0, i.jsx)("div", {
-                                                className: "line-animation category-line cat-line-4"
+                                                        }), (0, i.jsxs)("div", {
+                                                            className: "cont",
+                                                            children: [(0, i.jsx)("p", {
+                                                                children: "Our marketing strategies are not just designed to create a lasting impact, but to drive engagement, foster brand loyalty, and navigate the ever-evolving digital landscape with finesse and agility."
+                                                            }), (0, i.jsx)("p", {
+                                                                children: "For us, 'DIGITAL' isn't just a buzzword—it's the path to the future! This belief has shaped our service offerings to evolve for our clients' requirements & subsequently their success. We offer: Social Media Management, Content Creation & Curation, Search Engine Optimisation, Influencer Management, Online Reputation Management, Marketing Automation, Email Marketing, Conversion Rate Optimisation and Website & SEO Analysis."
+                                                            })]
+                                                        }), (0, i.jsx)("div", {
+                                                            className: "category-button",
+                                                            children: (0, i.jsxs)("a", {
+                                                                href: "/organic-digital-marketing-services",
+                                                                "data-cursor-size": "80px",
+                                                                "data-cursor-exclusion": !0,
+                                                                children: [(0, i.jsx)("span", {
+                                                                    className: "cat-btn-text",
+                                                                    children: "Ready? Let’s Get Moving"
+                                                                }), (0, i.jsx)("span", {
+                                                                    className: "cat-btn-arrow",
+                                                                    children: (0, i.jsx)("img", {
+                                                                        width: 15,
+                                                                        height: 15,
+                                                                        src: "/assets/icons/arrow.png",
+                                                                        loading: "lazy",
+                                                                        alt: "Icon"
+                                                                    })
+                                                                })]
+                                                            })
+                                                        })]
+                                                    })
+                                                }), (0, i.jsx)("div", {
+                                                    className: "line-animation category-line cat-line-4"
+                                                })]
                                             })]
-                                        })]
+                                        })
                                     })
-                                })
                             })
                         })
                     })
@@ -1544,7 +1558,7 @@
                                     className: "enigma_bg_container",
                                     children: (0, i.jsx)("p", {
                                         className: "enigma_bg",
-                                        children: "We're Changing The Face of Web"
+                                        children: ""
                                     })
                                 })]
                             })
@@ -1897,7 +1911,7 @@
                                 className: "lapi-content",
                                 children: (0, i.jsx)("p", {
                                     className: "word",
-                                    children: "We're Changing The Face of Web"
+                                    children: ""
                                 })
                             })]
                         })
@@ -2084,11 +2098,11 @@
                     })
                 }, []), (0, l.useEffect)(() => {
                     let e = c.ZP.timeline({
-                            scrollTrigger: {
-                                trigger: ".top-aero-hover",
-                                start: "-200 top"
-                            }
-                        }),
+                        scrollTrigger: {
+                            trigger: ".top-aero-hover",
+                            start: "-200 top"
+                        }
+                    }),
                         t = document.querySelectorAll(".top-aero-demo p");
                     e.fromTo(t, {
                         opacity: 0,
@@ -2138,7 +2152,7 @@
             function Index() {
                 let [e, t] = (0, l.useState)(0), [s, a] = (0, l.useState)(!0), [r, n] = (0, l.useState)([]);
                 return (0, l.useEffect)(() => {
-                    n(function(e) {
+                    n(function (e) {
                         for (let t = e.length - 1; t > 0; t--) {
                             let s = Math.floor(Math.random() * (t + 1));
                             [e[t], e[s]] = [e[s], e[t]]
@@ -2293,12 +2307,12 @@
                 return (0, l.useEffect)(() => {
                     let e = document.querySelector(".primary-button"),
                         t = document.querySelector(".primary-button .round");
-                    e.addEventListener("mouseenter", function(e) {
+                    e.addEventListener("mouseenter", function (e) {
                         this.classList += " animate";
                         let s = e.offsetX,
                             i = e.offsetY;
                         i < 24 ? t.style.top = "0px" : i > 30 && (t.style.top = "48px"), t.style.left = s + "px", t.style.width = "1px", t.style.height = "1px"
-                    }), e.addEventListener("mouseleave", function() {
+                    }), e.addEventListener("mouseleave", function () {
                         this.classList.remove("animate");
                         let e = event.offsetX,
                             s = event.offsetY;
@@ -2326,7 +2340,7 @@
             function HomeProject() {
                 return (0, l.useEffect)(() => {
                     let e = document.querySelectorAll("#c-works");
-                    e.forEach(function(e, t) {
+                    e.forEach(function (e, t) {
                         let s = new D.Z(e.querySelector("#proj-para-anim")),
                             i = s.words;
                         c.ZP.from(i, {
@@ -2409,10 +2423,10 @@
             c.ZP.registerPlugin(d.ScrollTrigger);
             var S, M, T, E, C, O = s(6499),
                 L = s.n(O),
-                Es = function() {
+                Es = function () {
                     return !0
                 },
-                Ts = function() {
+                Ts = function () {
                     return S || Es() && (S = window.gsap) && S.registerPlugin && S
                 },
                 I = /[-+=\.]*\d+[\.e\-\+]*\d*[e\-\+]*\d*/gi,
@@ -2422,26 +2436,26 @@
                     ellipse: ["rx", "ry"],
                     line: ["x2", "y2"]
                 },
-                As = function(e) {
+                As = function (e) {
                     return Math.round(1e4 * e) / 1e4
                 },
-                ks = function(e) {
+                ks = function (e) {
                     return parseFloat(e || 0)
                 },
-                Os = function(e, t) {
+                Os = function (e, t) {
                     return ks(e.getAttribute(t))
                 },
                 H = Math.sqrt,
-                Bs = function(e, t, s, i, a, r) {
+                Bs = function (e, t, s, i, a, r) {
                     return H(Math.pow((ks(s) - ks(e)) * a, 2) + Math.pow((ks(i) - ks(t)) * r, 2))
                 },
-                Ls = function(e) {
+                Ls = function (e) {
                     return console.warn(e)
                 },
-                Ps = function(e) {
+                Ps = function (e) {
                     return "non-scaling-stroke" === e.getAttribute("vector-effect")
                 },
-                Rs = function(e) {
+                Rs = function (e) {
                     if (!(e = M(e)[0])) return 0;
                     var t, s, i, a, r, n, o, l = e.tagName.toLowerCase(),
                         c = e.style,
@@ -2454,11 +2468,11 @@
                         Ls("Some browsers won't measure invisible elements (like display:none or masks inside defs).")
                     }
                     var h = s || {
-                            x: 0,
-                            y: 0,
-                            width: 0,
-                            height: 0
-                        },
+                        x: 0,
+                        y: 0,
+                        width: 0,
+                        height: 0
+                    },
                         m = h.x,
                         u = h.y,
                         g = h.width,
@@ -2471,7 +2485,7 @@
                     else "circle" !== l && "ellipse" !== l || (t = Math.PI * (3 * ((n = g / 2 * d) + (o = x / 2 * p)) - H((3 * n + o) * (n + 3 * o))));
                     return t || 0
                 },
-                js = function(e, t) {
+                js = function (e, t) {
                     if (!(e = M(e)[0])) return [0, 0];
                     t || (t = Rs(e) + 1);
                     var s = T.getComputedStyle(e),
@@ -2480,22 +2494,22 @@
                         r = i.indexOf(",");
                     return r < 0 && (r = i.indexOf(" ")), (i = r < 0 ? t : ks(i.substr(0, r)) || 1e-5) > t && (i = t), [Math.max(0, -a), Math.max(0, i - a)]
                 },
-                qs = function() {
+                qs = function () {
                     Es() && (document, T = window, C = S = Ts(), M = S.utils.toArray, E = -1 !== ((T.navigator || {}).userAgent || "").indexOf("Edge"))
                 },
                 B = {
                     version: "3.4.0",
                     name: "drawSVG",
-                    register: function(e) {
+                    register: function (e) {
                         S = e, qs()
                     },
-                    init: function(e, t, s, i, a) {
+                    init: function (e, t, s, i, a) {
                         if (!e.getBBox) return !1;
                         C || qs();
                         var r, n, o, l, c, d, p, h, m, u = Rs(e) + 1;
                         return this._style = e.style, this._target = e, t + "" == "true" ? t = "0 100%" : t ? -1 === (t + "").indexOf(" ") && (t = "0 " + t) : t = "0 0", r = t, n = (d = js(e, u))[0], (c = r.indexOf(" ")) < 0 ? (o = void 0 !== n ? n + "" : r, l = r) : (o = r.substr(0, c), l = r.substr(c + 1)), p = (o = ~o.indexOf("%") ? ks(o) / 100 * u : ks(o)) > (l = ~l.indexOf("%") ? ks(l) / 100 * u : ks(l)) ? [l, o] : [o, l], this._length = As(u + 10), 0 === d[0] && 0 === p[0] ? (h = Math.max(1e-5, p[1] - u), this._dash = As(u + h), this._offset = As(u - d[1] + h), this._offsetPT = this.add(this, "_offset", this._offset, As(u - p[1] + h))) : (this._dash = As(d[1] - d[0]) || 1e-6, this._offset = As(-d[0]), this._dashPT = this.add(this, "_dash", this._dash, As(p[1] - p[0]) || 1e-5), this._offsetPT = this.add(this, "_offset", this._offset, As(-p[0]))), E && (m = T.getComputedStyle(e)).strokeLinecap !== m.strokeLinejoin && (p = ks(m.strokeMiterlimit), this.add(e.style, "strokeMiterlimit", p, p + .01)), this._live = Ps(e) || ~(t + "").indexOf("live"), this._props.push("drawSVG"), 1
                     },
-                    render: function(e, t) {
+                    render: function (e, t) {
                         var s, i, a, r, n = t._pt,
                             o = t._style;
                         if (n) {
@@ -2508,12 +2522,12 @@
                 };
             Ts() && S.registerPlugin(B), c.ZP.registerPlugin(p(), B);
             let handleHover = e => {
-                    c.ZP.to(e.target, {
-                        duration: .5,
-                        scale: 1.1,
-                        ease: "power1.inOut"
-                    })
-                },
+                c.ZP.to(e.target, {
+                    duration: .5,
+                    scale: 1.1,
+                    ease: "power1.inOut"
+                })
+            },
                 handleHoverExit = e => {
                     c.ZP.to(e.target, {
                         duration: .5,
@@ -2525,7 +2539,7 @@
             function ProjectsHome() {
                 return (0, l.useEffect)(() => {
                     let e = c.ZP.timeline();
-                    document.querySelectorAll("#image-container").forEach(function(t) {
+                    document.querySelectorAll("#image-container").forEach(function (t) {
                         t.addEventListener("mouseenter", () => {
                             e.set(t.querySelector("#line1"), {
                                 drawSVG: "100%"
@@ -2552,7 +2566,7 @@
                     })
                 }), (0, l.useEffect)(() => {
                     let e = c.ZP.context(() => {
-                        c.ZP.utils.toArray("#image-container").forEach(function(e) {
+                        c.ZP.utils.toArray("#image-container").forEach(function (e) {
                             let t = e.querySelector("img");
                             c.ZP.to(t, {
                                 y: () => t.offsetHeight - e.offsetHeight,
@@ -3115,12 +3129,12 @@
             var z = s(4791);
             c.ZP.registerPlugin(p());
             let HomeBlogs_handleHover = e => {
-                    c.ZP.to(e.target, {
-                        duration: .5,
-                        scale: 1.1,
-                        ease: "power1.inOut"
-                    })
-                },
+                c.ZP.to(e.target, {
+                    duration: .5,
+                    scale: 1.1,
+                    ease: "power1.inOut"
+                })
+            },
                 HomeBlogs_handleHoverExit = e => {
                     c.ZP.to(e.target, {
                         duration: .5,
@@ -3129,93 +3143,93 @@
                     })
                 };
             var Home_HomeBlogs = e => {
-                    let {
-                        recentPosts: t
-                    } = e, s = (0, l.useRef)();
-                    return (0, l.useEffect)(() => {
-                        let e = document.querySelectorAll(".related-box-img"),
-                            t = c.ZP.timeline({
-                                scrollTrigger: {
-                                    trigger: s.current,
-                                    start: "top 85%"
-                                }
-                            });
-                        return t.fromTo(".homeBlogsHeading", {
-                            y: 200,
-                            opacity: 0
-                        }, {
-                            opacity: 1,
-                            y: 0,
-                            duration: 1.5,
-                            ease: "power2.out"
-                        }).fromTo(".homeBlogs>a", {
-                            y: 100,
-                            opacity: 0
-                        }, {
-                            opacity: 1,
-                            y: 0,
-                            duration: 1.5,
-                            delay: -1,
-                            ease: "power1.out"
-                        }).fromTo(e, {
-                            y: 100,
-                            opacity: 0
-                        }, {
-                            opacity: 1,
-                            y: 0,
-                            duration: 1.5,
-                            delay: -1,
-                            ease: "power1.out"
-                        }), () => t.kill()
-                    }, []), (0, i.jsxs)("div", {
-                        ref: s,
-                        className: "related-articles",
-                        children: [(0, i.jsxs)("div", {
-                            className: "homeBlogs",
-                            children: [(0, i.jsxs)("h3", {
-                                className: "homeBlogsHeading",
-                                children: ["Our Creative ", (0, i.jsx)("br", {}), " ", (0, i.jsx)("span", {
-                                    className: "color-primary",
-                                    children: "Musings"
-                                })]
-                            }), (0, i.jsx)(x(), {
-                                href: "/blog",
-                                "data-cursor-size": "80px",
-                                "data-cursor-exclusion": !0,
-                                children: (0, i.jsx)("span", {
-                                    children: "All Articles"
-                                })
+                let {
+                    recentPosts: t
+                } = e, s = (0, l.useRef)();
+                return (0, l.useEffect)(() => {
+                    let e = document.querySelectorAll(".related-box-img"),
+                        t = c.ZP.timeline({
+                            scrollTrigger: {
+                                trigger: s.current,
+                                start: "top 85%"
+                            }
+                        });
+                    return t.fromTo(".homeBlogsHeading", {
+                        y: 200,
+                        opacity: 0
+                    }, {
+                        opacity: 1,
+                        y: 0,
+                        duration: 1.5,
+                        ease: "power2.out"
+                    }).fromTo(".homeBlogs>a", {
+                        y: 100,
+                        opacity: 0
+                    }, {
+                        opacity: 1,
+                        y: 0,
+                        duration: 1.5,
+                        delay: -1,
+                        ease: "power1.out"
+                    }).fromTo(e, {
+                        y: 100,
+                        opacity: 0
+                    }, {
+                        opacity: 1,
+                        y: 0,
+                        duration: 1.5,
+                        delay: -1,
+                        ease: "power1.out"
+                    }), () => t.kill()
+                }, []), (0, i.jsxs)("div", {
+                    ref: s,
+                    className: "related-articles",
+                    children: [(0, i.jsxs)("div", {
+                        className: "homeBlogs",
+                        children: [(0, i.jsxs)("h3", {
+                            className: "homeBlogsHeading",
+                            children: ["Our Creative ", (0, i.jsx)("br", {}), " ", (0, i.jsx)("span", {
+                                className: "color-primary",
+                                children: "Musings"
                             })]
-                        }), (0, i.jsx)("div", {
-                            className: "related-box-img homeBlog",
-                            children: t.map((e, t) => (0, i.jsxs)("div", {
-                                className: "homeBlog-pading",
-                                children: [(0, i.jsx)("div", {
-                                    className: "img-box-related homeBlog",
-                                    children: (0, i.jsxs)(x(), {
-                                        href: e.slug,
-                                        children: [(0, i.jsx)("img", {
-                                            loading: "lazy",
-                                            src: e.featuredImage.node.sourceUrl,
-                                            alt: e.title,
-                                            title: e.title,
-                                            "data-cursor-text": "Read Now",
-                                            "data-cursor-color": "#000",
-                                            "data-cursor-size": "100px",
-                                            onMouseEnter: e => HomeBlogs_handleHover(e),
-                                            onMouseOut: e => HomeBlogs_handleHoverExit(e)
-                                        }), (0, i.jsx)("h5", {
-                                            className: "blog-list-tag",
-                                            children: e.categories.nodes[0].name
-                                        })]
-                                    })
-                                }), (0, i.jsx)("h4", {
-                                    children: e.title
-                                })]
-                            }, t))
+                        }), (0, i.jsx)(x(), {
+                            href: "/blog",
+                            "data-cursor-size": "80px",
+                            "data-cursor-exclusion": !0,
+                            children: (0, i.jsx)("span", {
+                                children: "All Articles"
+                            })
                         })]
-                    })
-                },
+                    }), (0, i.jsx)("div", {
+                        className: "related-box-img homeBlog",
+                        children: t.map((e, t) => (0, i.jsxs)("div", {
+                            className: "homeBlog-pading",
+                            children: [(0, i.jsx)("div", {
+                                className: "img-box-related homeBlog",
+                                children: (0, i.jsxs)(x(), {
+                                    href: e.slug,
+                                    children: [(0, i.jsx)("img", {
+                                        loading: "lazy",
+                                        src: e.featuredImage.node.sourceUrl,
+                                        alt: e.title,
+                                        title: e.title,
+                                        "data-cursor-text": "Read Now",
+                                        "data-cursor-color": "#000",
+                                        "data-cursor-size": "100px",
+                                        onMouseEnter: e => HomeBlogs_handleHover(e),
+                                        onMouseOut: e => HomeBlogs_handleHoverExit(e)
+                                    }), (0, i.jsx)("h5", {
+                                        className: "blog-list-tag",
+                                        children: e.categories.nodes[0].name
+                                    })]
+                                })
+                            }), (0, i.jsx)("h4", {
+                                children: e.title
+                            })]
+                        }, t))
+                    })]
+                })
+            },
                 Z = s(9008),
                 W = s.n(Z);
 
@@ -3273,78 +3287,84 @@
                 } = e;
                 return (0, i.jsxs)(i.Fragment, {
                     children: [(0, i.jsx)(n.PB, {
-                        title: "Enigma | Digital Product Design, UI/UX & Neuromarketing Agency",
-                        description: "Enigma is India's Leading UI/UX Design Agency that Leverages the Power of Emotion, Design, Technology, and Neuromarketing Strategies to Create Digital Products that People Love to Use.",
+                        title: "Orgitech | Digital Product Design, UI/UX Design Agency",
+                        description: "Orgitech is california Leading UI/UX Design Agency that Leverages the Power of Emotion, Design, Technology, and New Strategies to Create Digital Products that People Love to Use.",
+                        // description: "Enigma is India's Leading UI/UX Design Agency that Leverages the Power of Emotion, Design, Technology, and Neuromarketing Strategies to Create Digital Products that People Love to Use.",
                         openGraph: {
-                            url: "https://weareenigma.com/",
-                            title: "Enigma | Digital Product Design, UI/UX & Neuromarketing Agency",
-                            description: "Enigma is India's Leading UI/UX Design Agency that Leverages the Power of Emotion, Design, Technology, and Neuromarketing Strategies to Create Digital Products that People Love to Use.",
+                            url: "",
+                            title: "Orgitech | Digital Product Design, UI/UX Design Agency",
+                            description: "Orgitech is california Leading UI/UX Design Agency that Leverages the Power of Emotion, Design, Technology, and New Strategies to Create Digital Products that People Love to Use.",
                             images: [{
-                                url: "https://weareenigma.com/assets/featured-images/index.png",
+                                // url: "https://weareenigma.com/assets/featured-images/index.png",
+                                url: "",
                                 width: 1200,
                                 height: 630,
                                 alt: "HomePage Feature Image",
-                                type: "image/png"
+                                type: "/assets/header-logo/orgitech_logo.png"
                             }],
-                            siteName: "Enigma Digital"
+                            siteName: "Orgitech"
                         },
                         additionalMetaTags: [{
-                            name: "twitter:title",
-                            content: "Enigma | Digital Product Design, UI/UX & Neuromarketing Agency"
+                            name: "",
+                            content: ""
                         }, {
-                            name: "twitter:description",
-                            content: "Enigma is India's Leading UI/UX Design Agency that Leverages the Power of Emotion, Design, Technology, and Neuromarketing Strategies to Create Digital Products that People Love to Use."
+                            name: "",
+                            content: ""
                         }, {
-                            name: "twitter:image",
-                            content: "https://weareenigma.com/assets/featured-images/index.png"
+                            name: "",
+                            content: ""
                         }]
                     }), (0, i.jsxs)(W(), {
                         children: [(0, i.jsx)("link", {
                             rel: "canonical",
-                            href: "https://weareenigma.com/"
+                            href: ""
                         }), (0, i.jsx)("link", {
                             rel: "alternate",
-                            href: "https://weareenigma.com/",
+                            href: "",
                             hreflang: "x-default"
                         }), (0, i.jsx)("script", {
                             type: "application/ld+json",
                             dangerouslySetInnerHTML: {
                                 __html: JSON.stringify({
-                                    "@context": "https://schema.org",
+                                    "@context": "",
                                     "@type": "WebPage",
                                     mainEntityOfPage: {
                                         "@type": "WebPage",
-                                        "@id": "https://weareenigma.com/"
+                                        "@id": ""
                                     },
-                                    name: "Enigma | Digital Product Design, UI/UX & Neuromarketing Agency",
-                                    description: "Enigma is India's Leading UI/UX Design Agency that Leverages the Power of Emotion, Design, Technology, and Neuromarketing Strategies to Create Digital Products that People Love to Use.",
-                                    datePublished: "2023-01-01T12:00:00+05:30",
-                                    dateModified: "2023-11-17T12:00:00+05:30",
+                                    name: "",
+                                    description: "",
+                                    datePublished: "",
+                                    dateModified: "",
                                     publisher: {
                                         "@type": "Organization",
-                                        name: "Enigma Digital",
+                                        name: "",
                                         logo: {
                                             "@type": "ImageObject",
-                                            url: "https://weareenigma.com/assets/header-logo/enigma-en-logo.svg"
+                                            url: "/assets/header-logo/orgitech_logo.png"
                                         }
                                     }
                                 })
                             }
                         }), (0, i.jsx)("script", {
-                            type: "application/ld+json",
+                            // type: "application/ld+json",
+                            type: "",
                             dangerouslySetInnerHTML: {
                                 __html: JSON.stringify([{
-                                    "@context": "https://schema.org",
+                                    // "@context": "https://schema.org",
+                                    "@context": "",
                                     "@type": "ProfessionalService",
-                                    name: "Enigma Digital",
-                                    url: "https://weareenigma.com/",
-                                    image: "https://lh3.googleusercontent.com/p/AF1QipOrkTrTs3PcLHNNf0iQVVPlb4FTsUlynqO-DFjb=s680-w680-h510",
+                                    name: "Orgitech",
+                                    url: "",
+                                    // url: "https://weareenigma.com/",
+                                    // image: "https://lh3.googleusercontent.com/p/AF1QipOrkTrTs3PcLHNNf0iQVVPlb4FTsUlynqO-DFjb=s680-w680-h510",
+                                    image: "",
                                     address: {
                                         "@type": "PostalAddress",
-                                        streetAddress: "Suite # 301, Tower A, Grandslam, Ithum A-40, Sector-62",
-                                        addressLocality: "Noida",
+                                        streetAddress: "7911 Arlington Ave Apt 59, Riverside CA 92503",
+                                        addressLocality: "california",
                                         addressRegion: "UP",
-                                        postalCode: "201309",
+                                        postalCode: "92503",
                                         addressCountry: "IN"
                                     },
                                     aggregateRating: {
@@ -3353,11 +3373,14 @@
                                         reviewCount: "14"
                                     },
                                     geo: {
-                                        "@type": "GeoCoordinates",
-                                        latitude: "28.627458269319703",
-                                        longitude: " 77.37259286237833"
+                                        // "@type": "GeoCoordinates",
+                                        "@type": "",
+                                        // latitude: "28.627458269319703",
+                                        latitude: "",
+                                        // longitude: " 77.37259286237833"
+                                        longitude: ""
                                     },
-                                    telephone: "+918178026136",
+                                    telephone: "+(951) 900 3213",
                                     priceRange: "$$",
                                     openingHoursSpecification: [{
                                         "@type": "OpeningHoursSpecification",
@@ -3412,15 +3435,15 @@
                 })
             }
         },
-        5538: function() {},
-        2818: function(e) {
+        5538: function () { },
+        2818: function (e) {
             e.exports = {
                 preloader: "style_preloader__DiRpd",
                 mainLoaderBg: "style_mainLoaderBg___LA38",
                 mainLoaderBar: "style_mainLoaderBar__YB0RB"
             }
         },
-        9108: function(e) {
+        9108: function (e) {
             e.exports = {
                 projectSectionMain: "styles_projectSectionMain__0U2bM",
                 mt20: "styles_mt20__naeA9",
@@ -3430,7 +3453,7 @@
                 paraProject: "styles_paraProject__CvOhE"
             }
         },
-        1059: function(e) {
+        1059: function (e) {
             e.exports = {
                 double: "Double_double__H0_hO",
                 imageContainer: "Double_imageContainer__wdbmX",
@@ -3440,7 +3463,7 @@
                 description: "Double_description__lxQo_"
             }
         },
-        6499: function(e) {
+        6499: function (e) {
             e.exports = {
                 projectSectionMain: "project_projectSectionMain__YV5HF",
                 font: "project_font__Skv89",
@@ -3464,13 +3487,13 @@
                 mt20: "project_mt20__NTiig"
             }
         },
-        5152: function(e, t, s) {
+        5152: function (e, t, s) {
             e.exports = s(1342)
         },
-        2708: function(e, t, s) {
+        2708: function (e, t, s) {
             "use strict";
             s.d(t, {
-                YD: function() {
+                YD: function () {
                     return useInView
                 }
             });
@@ -3500,7 +3523,7 @@
                 });
                 f.current = u, i.useEffect(() => {
                     let i;
-                    if (!p && x) return i = function(e, t, s = {}, i = l) {
+                    if (!p && x) return i = function (e, t, s = {}, i = l) {
                         if (void 0 === window.IntersectionObserver && void 0 !== i) {
                             let a = e.getBoundingClientRect();
                             return t(i, {
@@ -3511,17 +3534,17 @@
                                 boundingClientRect: a,
                                 intersectionRect: a,
                                 rootBounds: a
-                            }), () => {}
+                            }), () => { }
                         }
                         let {
                             id: a,
                             observer: c,
                             elements: d
-                        } = function(e) {
+                        } = function (e) {
                             let t = Object.keys(e).sort().filter(t => void 0 !== e[t]).map(t => {
-                                    var s;
-                                    return `${t}_${"root" === t ? (s = e.root) ? (n.has(s) || (o += 1, n.set(s, o.toString())), n.get(s)) : "0" : e[t]}`
-                                }).toString(),
+                                var s;
+                                return `${t}_${"root" === t ? (s = e.root) ? (n.has(s) || (o += 1, n.set(s, o.toString())), n.get(s)) : "0" : e[t]}`
+                            }).toString(),
                                 s = r.get(t);
                             if (!s) {
                                 let i;
@@ -3544,7 +3567,7 @@
                             return s
                         }(s), p = d.get(e) || [];
                         return d.has(e) || d.set(e, p), p.push(t), c.observe(e),
-                            function() {
+                            function () {
                                 p.splice(p.indexOf(t), 1), 0 === p.length && (d.delete(e), c.unobserve(e)), 0 === d.size && (c.disconnect(), r.delete(a))
                             }
                     }(x, (e, t) => {
@@ -3574,8 +3597,8 @@
             i.Component
         }
     },
-    function(e) {
-        e.O(0, [8802, 990, 3386, 1664, 506, 1132, 5829, 3494, 5268, 9774, 2888, 179], function() {
+    function (e) {
+        e.O(0, [8802, 990, 3386, 1664, 506, 1132, 5829, 3494, 5268, 9774, 2888, 179], function () {
             return e(e.s = 5557)
         }), _N_E = e.O()
     }

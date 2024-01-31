@@ -1010,19 +1010,19 @@
                                         "@type": "SiteNavigationElement",
                                         position: 1,
                                         name: "About",
-                                        description: "Enigma is a team of creators, discoverers, dreamers, & doers, crafting exceptional digital experiences. We are India's leading UI UX design & marketing agency.",
+                                        description: "Orgitech is a team of creators, discoverers, dreamers, & doers, crafting exceptional digital experiences. We are US leading UI UX design & marketing agency.",
                                         url: ""
                                     }, {
                                         "@type": "SiteNavigationElement",
                                         position: 2,
                                         name: "Services",
-                                        description: "Enigma offers UI UX design, Web Design, Mobile App Design, Frontend Development and Organic Digital Marketing Services. See how we can help your business grow.",
+                                        description: "Orgitech offers UI UX design, Web Design, Mobile App Design, Frontend Development and Organic Digital Marketing Services. See how we can help your business grow.",
                                         url: ""
                                     }, {
                                         "@type": "SiteNavigationElement",
                                         position: 3,
                                         name: "Works",
-                                        description: "Explore Enigma's portfolio, a showcase of our diverse services in UI/UX design, branding, and web development, driving exceptional results.",
+                                        description: "Explore Orgitech's portfolio, a showcase of our diverse services in UI/UX design, branding, and web development, driving exceptional results.",
                                         url: ""
                                     }, {
                                         "@type": "SiteNavigationElement",
@@ -1034,13 +1034,13 @@
                                         "@type": "SiteNavigationElement",
                                         position: 5,
                                         name: "Careers",
-                                        description: "Experience top-tier UI/UX design, front-end development, and organic marketing jobs with Enigma Digital. Find The Right Jobs",
+                                        description: "Experience top-tier UI/UX design, front-end development, and organic marketing jobs with Orgitech Digital. Find The Right Jobs",
                                         url: ""
                                     }, {
                                         "@type": "SiteNavigationElement",
                                         position: 6,
                                         name: "Contact",
-                                        description: "Contact Enigma for top-tier UI/UX design, front-end development, and organic digital marketing solutions. Let's collaborate and ascend your digital presence.",
+                                        description: "Contact Orgitech for top-tier UI/UX design, front-end development, and organic digital marketing solutions. Let's collaborate and ascend your digital presence.",
                                         url: ""
                                     }]
                                 })

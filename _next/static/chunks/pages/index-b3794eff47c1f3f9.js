@@ -537,7 +537,7 @@
                 description: "Branding, Web Design, Marketing",
                 src: "1.webp",
                 year: 2023,
-                link: "patronum-saas-case-study",
+                link: "/",
                 srcSLider: "patronum.webp"
             }, {
                 name: "Dharan",
@@ -545,7 +545,7 @@
                 description: "E-Commerce, Web Design, Development",
                 src: "2.webp",
                 year: 2023,
-                link: "dharan-ecommerce-case-study",
+                link: "/",
                 srcSLider: "dharan.webp"
             }, {
                 name: "Kedarkala",
@@ -553,7 +553,7 @@
                 description: "Branding, Web Design",
                 src: "3.webp",
                 year: 2022,
-                link: "kedarkala-portfolio-website-case-study",
+                link: "/",
                 srcSLider: "kedarkala.webp"
             }, {
                 name: "Garden City Mall",
@@ -561,7 +561,7 @@
                 description: "Web Design, Development",
                 src: "4.webp",
                 year: 2022,
-                link: "gcm-phygital-shopping-case-study",
+                link: "/",
                 srcSLider: "gcm.webp"
             }, {
                 name: "Quick X",
@@ -569,7 +569,7 @@
                 description: "Branding, Web Design, Marketing",
                 src: "5.webp",
                 year: 2023,
-                link: "quickx-crypto-case-study",
+                link: "/",
                 srcSLider: "quickx.webp"
             }, {
                 name: "Certvault",
@@ -577,7 +577,7 @@
                 description: "UX Planning, UI Design",
                 src: "6.webp",
                 year: 2022,
-                link: "certvault-case-study",
+                link: "/",
                 srcSLider: "certvault.webp"
             }, {
                 name: "DMTCA",
@@ -585,7 +585,7 @@
                 description: "Branding, Web Design",
                 src: "7-2.webp",
                 year: 2022,
-                link: "dmtca-digital-branding-case-study",
+                link: "/",
                 srcSLider: "dmtca.webp"
             }, {
                 name: "PDTL",
@@ -593,7 +593,7 @@
                 description: "Web Design, Branding, Development",
                 src: "9.webp",
                 year: 2022,
-                link: "pdtl-ecommerce-automation-case-study",
+                link: "/",
                 srcSLider: "pdtl.webp"
             }, {
                 name: "Wragby",
@@ -601,7 +601,7 @@
                 description: "UI/UX Design, Web Design, Development",
                 src: "10.webp",
                 year: 2022,
-                link: "wragby-solutions-case-study",
+                link: "/",
                 srcSLider: "wragby.webp"
             }, {
                 name: "Patra",
@@ -609,7 +609,7 @@
                 description: "UX Planning, UI Design, Development",
                 src: "8.webp",
                 year: 2022,
-                link: "patra-saas-insurtech-case-study",
+                link: "/",
                 srcSLider: "patra.webp"
             }]
         },
@@ -923,7 +923,7 @@
                                     children: ["Harnessing the power of", (0, i.jsx)("span", {
                                         className: "bold-600",
                                         children: " Emotion, Design, Technology & Neuromarketing, "
-                                    }), "we create Digital Brand Experiences that propel your success in the enigmatic realm of bits & bytes."]
+                                    }), "we create Digital Brand Experiences that propel your success in the Orgitech realm of bits & bytes."]
                                 })]
                             }), (0, i.jsxs)("div", {
                                 className: "second-section",
@@ -1113,7 +1113,7 @@
                                                         }), (0, i.jsx)("div", {
                                                             className: "category-button",
                                                             children: (0, i.jsxs)("a", {
-                                                                href: "/strategy-and-planning-services",
+                                                                href: "/",
                                                                 "data-cursor-size": "80px",
                                                                 "data-cursor-exclusion": !0,
                                                                 children: [(0, i.jsx)("span", {
@@ -1174,7 +1174,7 @@
                                                         }), (0, i.jsx)("div", {
                                                             className: "category-button",
                                                             children: (0, i.jsxs)("a", {
-                                                                href: "/ui-ux-design-services",
+                                                                href: "/",
                                                                 "data-cursor-size": "80px",
                                                                 "data-cursor-exclusion": !0,
                                                                 children: [(0, i.jsx)("span", {
@@ -1235,7 +1235,7 @@
                                                         }), (0, i.jsx)("div", {
                                                             className: "category-button",
                                                             children: (0, i.jsxs)("a", {
-                                                                href: "/technology-services",
+                                                                href: "/",
                                                                 "data-cursor-size": "80px",
                                                                 "data-cursor-exclusion": !0,
                                                                 children: [(0, i.jsx)("span", {
@@ -1296,7 +1296,7 @@
                                                         }), (0, i.jsx)("div", {
                                                             className: "category-button",
                                                             children: (0, i.jsxs)("a", {
-                                                                href: "/organic-digital-marketing-services",
+                                                                href: "/",
                                                                 "data-cursor-size": "80px",
                                                                 "data-cursor-exclusion": !0,
                                                                 children: [(0, i.jsx)("span", {
@@ -1347,7 +1347,7 @@
                             id: a,
                             title: a,
                             poster: r,
-                            alt: "enigma bg video",
+                            alt: "Orgitech bg video",
                             children: [(0, i.jsx)("source", {
                                 src: t,
                                 type: "video/webm"
@@ -1545,7 +1545,7 @@
                                                     poster: "/assets/newProject/mac-poster.jpg",
                                                     srcWebm: "/assets/newProject/a.webm",
                                                     srcMp4: "/assets/newProject/a.webm",
-                                                    title: "Mac-Enigma-Video"
+                                                    title: "Mac-Orgitech-Video"
                                                 }), (0, i.jsx)("div", {
                                                     className: "macbook_frame_background"
                                                 })]
@@ -1596,7 +1596,7 @@
                                                 })]
                                             }), (0, i.jsxs)(x(), {
                                                 className: "en-cta-hero",
-                                                href: "/get-in-touch",
+                                                href: "/",
                                                 "data-cursor-size": "100px",
                                                 "data-cursor-exclusion": !0,
                                                 children: [(0, i.jsxs)("span", {
@@ -1650,7 +1650,7 @@
                             id: a,
                             title: a,
                             poster: r,
-                            alt: "Enigma Reel Video",
+                            alt: "Orgitech Reel Video",
                             children: [(0, i.jsx)("source", {
                                 src: t,
                                 type: "video/webm"
@@ -1737,7 +1737,7 @@
                                     children: (0, i.jsxs)("p", {
                                         children: ["Leveraging the power of", (0, i.jsx)("strong", {
                                             children: " Emotion, Consumer Psychology, and Technology, "
-                                        }), "we create Digital Brand Experiences that propel your success in the enigmatic realm of bits & bytes."]
+                                        }), "we create Digital Brand Experiences that propel your success in the Orgitech realm of bits & bytes."]
                                     })
                                 })]
                             })]
@@ -2322,7 +2322,7 @@
                     children: (0, i.jsx)("div", {
                         id: "button-container",
                         children: (0, i.jsx)(x(), {
-                            href: "/our-portfolio",
+                            href: "/",
                             children: (0, i.jsxs)(components_MagneticButton, {
                                 className: "primary-button",
                                 "data-cursor-text": "click",
@@ -2664,7 +2664,7 @@
                                         className: "".concat(L().glideContent, " ").concat(L().mt20),
                                         id: "image-container",
                                         children: [(0, i.jsx)("a", {
-                                            href: "/kedarkala-portfolio-website-case-study",
+                                            href: "/",
                                             children: (0, i.jsx)(m(), {
                                                 src: "/assets/projects/new-project/kedarkala2.webp",
                                                 width: 1e3,
@@ -2740,7 +2740,7 @@
                                         className: "".concat(L().glideContent),
                                         id: "image-container",
                                         children: [(0, i.jsx)("a", {
-                                            href: "/patronum-saas-case-study",
+                                            href: "/",
                                             children: (0, i.jsx)(m(), {
                                                 src: "/assets/projects/new-project/patronum.webp",
                                                 width: 1e3,
@@ -2895,7 +2895,7 @@
                                         className: L().glideContent,
                                         id: "image-container",
                                         children: [(0, i.jsx)("a", {
-                                            href: "/gcm-phygital-shopping-case-study",
+                                            href: "/",
                                             children: (0, i.jsx)(m(), {
                                                 src: "/assets/projects/new-project/gcm.webp",
                                                 width: 1e3,
@@ -3050,7 +3050,7 @@
                                         className: L().glideContent,
                                         id: "image-container",
                                         children: [(0, i.jsx)("a", {
-                                            href: "/dharan-ecommerce-case-study",
+                                            href: "/",
                                             children: (0, i.jsx)(m(), {
                                                 src: "/assets/projects/new-project/dharan.webp",
                                                 width: 1e3,
@@ -3193,7 +3193,7 @@
                                 children: "Musings"
                             })]
                         }), (0, i.jsx)(x(), {
-                            href: "/blog",
+                            href: "/",
                             "data-cursor-size": "80px",
                             "data-cursor-exclusion": !0,
                             children: (0, i.jsx)("span", {
@@ -3253,7 +3253,7 @@
                 //                 right: 0
                 //             },
                 //             children: (0, i.jsx)("a", {
-                //                 href: "https://www.awwwards.com/sites/enigma-digital",
+                //                 href: "https://www.awwwards.com/sites/Orgitech-digital",
                 //                 target: "_blank",
                 //                 children: (0, i.jsxs)("svg", {
                 //                     style: {
@@ -3289,14 +3289,14 @@
                     children: [(0, i.jsx)(n.PB, {
                         title: "Orgitech | Digital Product Design, UI/UX Design Agency",
                         description: "Orgitech is california Leading UI/UX Design Agency that Leverages the Power of Emotion, Design, Technology, and New Strategies to Create Digital Products that People Love to Use.",
-                        // description: "Enigma is India's Leading UI/UX Design Agency that Leverages the Power of Emotion, Design, Technology, and Neuromarketing Strategies to Create Digital Products that People Love to Use.",
+                        // description: "Orgitech is US Leading UI/UX Design Agency that Leverages the Power of Emotion, Design, Technology, and Neuromarketing Strategies to Create Digital Products that People Love to Use.",
                         openGraph: {
                             url: "",
                             title: "Orgitech | Digital Product Design, UI/UX Design Agency",
                             description: "Orgitech is california Leading UI/UX Design Agency that Leverages the Power of Emotion, Design, Technology, and New Strategies to Create Digital Products that People Love to Use.",
                             images: [{
                                 // url: "https://weareenigma.com/assets/featured-images/index.png",
-                                url: "",
+                                url: "/assets/header-logo/orgitech_logo.png",
                                 width: 1200,
                                 height: 630,
                                 alt: "HomePage Feature Image",

@@ -151,18 +151,21 @@
                                                         children: "+951 900 3213"
                                                     })
                                                 })
-                                            }), (0, n.jsx)("div", {
-                                                className: "footer-nav-item f__anim",
-                                                "data-cursor-exclusion": !0,
-                                                "data-cursor-size": "80px",
-                                                children: (0, n.jsx)("a", {
-                                                    href: "tel:+951 900 3213",
-                                                    children: (0, n.jsx)("span", {
-                                                        "data-text": "+951 900 3213",
-                                                        children: "+951 900 3213"
-                                                    })
-                                                })
-                                            })]
+                                            }), 
+
+                                            // (0, n.jsx)("div", {
+                                            //     className: "footer-nav-item f__anim",
+                                            //     "data-cursor-exclusion": !0,
+                                            //     "data-cursor-size": "80px",
+                                            //     children: (0, n.jsx)("a", {
+                                            //         href: "tel:+951 900 3213",
+                                            //         children: (0, n.jsx)("span", {
+                                            //             "data-text": "+951 900 3213",
+                                            //             children: "+951 900 3213"
+                                            //         })
+                                            //     })
+                                            // })
+                                        ]
                                         })]
                                     })]
                                 }), (0, n.jsxs)("div", {
@@ -261,7 +264,7 @@
                                 children: (0, n.jsx)("div", {
                                     className: "center f__anim-two",
                                     children: (0, n.jsx)("span", {
-                                        children: "\xa9 2023 Enigma Digital Consulting, LLP. All Rights Reserved. All Wrongs Reversed."
+                                        children: "\xa9 2023 Orgitech Logo Consulting, LLP. All Rights Reserved. All Wrongs Reversed."
                                     })
                                 })
                             })
@@ -390,9 +393,9 @@
                                         children: (0, n.jsx)(o(), {
                                             href: "/",
                                             children: (0, n.jsx)("img", {
-                                                src: "/assets/header-logo/enigma-en-logo.svg",
+                                                src: "/assets/header-logo/orgitech_logo.svg",
                                                 alt: "website logo",
-                                                title: "Enigma Digital"
+                                                title: "Orgitech Logo"
                                             })
                                         })
                                     })
@@ -851,11 +854,11 @@
                         children: (0, n.jsx)(o(), {
                             href: "/",
                             children: (0, n.jsx)(r(), {
-                                src: "/assets/header-logo/enigma-en-logo.svg",
+                                src: "/assets/header-logo/orgitech_logo.svg",
                                 width: 80,
                                 height: 80,
-                                alt: "Enigma Digital Logo",
-                                title: "Enigma Digital",
+                                alt: "Orgitech Logo",
+                                title: "Orgitech Logo",
                                 className: "main-logo svg-dark-mode",
                                 "data-cursor-size": "60px",
                                 "data-cursor-exclusion": !0,

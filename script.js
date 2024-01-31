@@ -258,14 +258,6 @@ setTimeout(() => {
     div_src.setAttribute('id', 'review_src');
     // document.querySelector('#review_src').setAttribute('src', 'https://widget.trustmary.com/6K4WmAqsT')
 
-    // //////////////////////////////////////////
-    // footer
-    // //////////////////////////////////////////
-    document.querySelector('.cb-outro-header .f__anim').attributes.href='mailto:info@orgitech.com';
-    document.querySelector('.cb-outro-header .f__anim').innerHTML = 'info@orgitech.com';
-    document.querySelectorAll('.num .f__anim a')[1].innerHTML = '';
-    // document.querySelectorAll('.num .f__anim a')[1].attributes.href = '';
-
 }, 1000);
 
 // setInterval(()=>{

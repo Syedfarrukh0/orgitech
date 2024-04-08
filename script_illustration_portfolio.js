@@ -12,16 +12,16 @@ setTimeout(() => {
     document.querySelector('.footer-dark-img').srcset = ''
     document.querySelector('.footer-dark-img').src ='/assets/footer-main/Vector.png';
 
-    var project_img_1 = '_next/1.jpg';
-    var project_img_2 = '_next/2.png';
-    var project_img_3 = '_next/3.png';
-    var project_img_4 = '_next/4.png';
-    var project_img_5 = '_next/5.jpg';
-    var project_img_6 = '_next/6.png';
-    var project_img_7 = '_next/7.png';
-    var project_img_8 = '_next/8.jpg';
-    var project_img_9 = '_next/9.png';
-    var project_img_10 = '_next/10.jpg';
+    var project_img_1 = '_next/man.jpg';
+    var project_img_2 = '_next/album1.jpg';
+    var project_img_3 = '_next/woman.png';
+    var project_img_4 = '_next/caricature.jpg';
+    var project_img_5 = '_next/b.png';
+    var project_img_6 = '_next/b1.jpg';
+    var project_img_7 = '_next/inpage.png';
+    var project_img_8 = '_next/b3.png';
+    var project_img_9 = '_next/c1.png';
+    var project_img_10 = '_next/c2.jpg';
 
     var a = document.querySelectorAll('.Double_stretchyWrapper__12RJ8 img'); 
     a[0].srcset = '';

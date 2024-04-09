@@ -2663,9 +2663,9 @@
                                         className: "".concat(L().glideContent, " ").concat(L().mt20),
                                         id: "image-container",
                                         children: [(0, i.jsx)("a", {
-                                            href: "/",
+                                            href: "/website-portfolio.html",
                                             children: (0, i.jsx)(m(), {
-                                                src: "/assets/projects/new-project/kedarkala2.webp",
+                                                src: "",
                                                 width: 1e3,
                                                 height: 1e3,
                                                 alt: "Image",
@@ -2677,13 +2677,13 @@
                                             children: (0, i.jsxs)("div", {
                                                 className: L().c_project_info,
                                                 children: [(0, i.jsx)("p", {
-                                                    children: "2022"
+                                                    children: ""
                                                 }), " ", (0, i.jsx)("p", {
-                                                    children: "Branding, Web Design"
+                                                    children: "Crafting Digital Visions, One Pixel at a Time"
                                                 }), (0, i.jsxs)("div", {
                                                     className: L().projectCta,
                                                     children: [(0, i.jsx)("h4", {
-                                                        children: "Kedarkala"
+                                                        children: "Website Portfolio"
                                                     }), (0, i.jsx)("div", {
                                                         className: "".concat(L().c_prj_btn, " ").concat(L().js_tab_arrow),
                                                         children: (0, i.jsxs)("svg", {
@@ -2739,9 +2739,9 @@
                                         className: "".concat(L().glideContent),
                                         id: "image-container",
                                         children: [(0, i.jsx)("a", {
-                                            href: "/",
+                                            href: "/graphics-portfolio.html",
                                             children: (0, i.jsx)(m(), {
-                                                src: "/assets/projects/new-project/patronum.webp",
+                                                src: "",
                                                 width: 1e3,
                                                 height: 1e3,
                                                 alt: "Image",
@@ -2753,13 +2753,13 @@
                                             children: (0, i.jsxs)("div", {
                                                 className: L().c_project_info,
                                                 children: [(0, i.jsx)("p", {
-                                                    children: "2019"
+                                                    children: ""
                                                 }), " ", (0, i.jsx)("p", {
-                                                    children: "Branding, Web Design, Marketing"
+                                                    children: "Elevating Ideas through Creative Canvas"
                                                 }), (0, i.jsxs)("div", {
                                                     className: L().projectCta,
                                                     children: [(0, i.jsx)("h4", {
-                                                        children: "Patronum"
+                                                        children: "Graphics Portfolio"
                                                     }), (0, i.jsx)("div", {
                                                         className: "".concat(L().c_prj_btn, " ").concat(L().js_tab_arrow),
                                                         children: (0, i.jsxs)("svg", {
@@ -2818,9 +2818,9 @@
                                         className: "".concat(L().glideContent, " ").concat(L().mt20, " ").concat(L().mt0),
                                         id: "image-container",
                                         children: [(0, i.jsx)("a", {
-                                            href: "/wragby-solutions-case-study",
+                                            href: "/",
                                             children: (0, i.jsx)(m(), {
-                                                src: "/assets/projects/new-project/wragby.webp",
+                                                src: "",
                                                 width: 1e3,
                                                 height: 1e3,
                                                 alt: "Image",
@@ -2832,13 +2832,13 @@
                                             children: (0, i.jsxs)("div", {
                                                 className: L().c_project_info,
                                                 children: [(0, i.jsx)("p", {
-                                                    children: "2022"
+                                                    children: ""
                                                 }), " ", (0, i.jsx)("p", {
-                                                    children: "UI/ UX Design, Development"
+                                                    children: "Transforming Moments into Cinematic Stories"
                                                 }), (0, i.jsxs)("div", {
                                                     className: L().projectCta,
                                                     children: [(0, i.jsx)("h4", {
-                                                        children: "Wragby"
+                                                        children: "Video Editing"
                                                     }), (0, i.jsx)("div", {
                                                         className: "".concat(L().c_prj_btn, " ").concat(L().js_tab_arrow),
                                                         children: (0, i.jsxs)("svg", {
@@ -2894,9 +2894,9 @@
                                         className: L().glideContent,
                                         id: "image-container",
                                         children: [(0, i.jsx)("a", {
-                                            href: "/",
+                                            href: "/illustration-portfolio.html",
                                             children: (0, i.jsx)(m(), {
-                                                src: "/assets/projects/new-project/gcm.webp",
+                                                src: "",
                                                 width: 1e3,
                                                 height: 1e3,
                                                 alt: "Image",
@@ -2908,13 +2908,13 @@
                                             children: (0, i.jsxs)("div", {
                                                 className: L().c_project_info,
                                                 children: [(0, i.jsx)("p", {
-                                                    children: "2022"
+                                                    children: ""
                                                 }), " ", (0, i.jsx)("p", {
-                                                    children: "Web Design, Development"
+                                                    children: "Bringing Imagination to Life, Stroke by Stroke"
                                                 }), (0, i.jsxs)("div", {
                                                     className: L().projectCta,
                                                     children: [(0, i.jsx)("h4", {
-                                                        children: "GCM"
+                                                        children: "Illustration Portfolio"
                                                     }), (0, i.jsx)("div", {
                                                         className: "".concat(L().c_prj_btn, " ").concat(L().js_tab_arrow),
                                                         children: (0, i.jsxs)("svg", {
@@ -2973,9 +2973,9 @@
                                         className: "".concat(L().glideContent, " ").concat(L().mt20, " ").concat(L().mt0),
                                         id: "image-container",
                                         children: [(0, i.jsx)("a", {
-                                            href: "/pdtl-ecommerce-automation-case-study",
+                                            href: "/",
                                             children: (0, i.jsx)(m(), {
-                                                src: "/assets/projects/new-project/pdtl.webp",
+                                                src: "",
                                                 width: 1e3,
                                                 height: 1e3,
                                                 alt: "Image",
@@ -2987,13 +2987,13 @@
                                             children: (0, i.jsxs)("div", {
                                                 className: L().c_project_info,
                                                 children: [(0, i.jsx)("p", {
-                                                    children: "2022"
+                                                    children: ""
                                                 }), " ", (0, i.jsx)("p", {
-                                                    children: "Web Design, Branding, Development"
+                                                    children: "Bringing Imagination to Life, Stroke by Stroke"
                                                 }), (0, i.jsxs)("div", {
                                                     className: L().projectCta,
                                                     children: [(0, i.jsx)("h4", {
-                                                        children: "PDTL"
+                                                        children: "Animation Portfolio"
                                                     }), (0, i.jsx)("div", {
                                                         className: "".concat(L().c_prj_btn, " ").concat(L().js_tab_arrow),
                                                         children: (0, i.jsxs)("svg", {
@@ -3051,7 +3051,7 @@
                                         children: [(0, i.jsx)("a", {
                                             href: "/",
                                             children: (0, i.jsx)(m(), {
-                                                src: "/assets/projects/new-project/dharan.webp",
+                                                src: "",
                                                 width: 1e3,
                                                 height: 1e3,
                                                 alt: "Image",
@@ -3063,13 +3063,13 @@
                                             children: (0, i.jsxs)("div", {
                                                 className: L().c_project_info,
                                                 children: [(0, i.jsx)("p", {
-                                                    children: "2020"
+                                                    children: ""
                                                 }), " ", (0, i.jsx)("p", {
-                                                    children: "E-Commerce, Web Design, Development"
+                                                    children: "UX Planning, UI Design"
                                                 }), (0, i.jsxs)("div", {
                                                     className: L().projectCta,
                                                     children: [(0, i.jsx)("h4", {
-                                                        children: "Dharan"
+                                                        children: "UI/UX Design Portfolio"
                                                     }), (0, i.jsx)("div", {
                                                         className: "".concat(L().c_prj_btn, " ").concat(L().js_tab_arrow),
                                                         children: (0, i.jsxs)("svg", {

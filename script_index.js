@@ -256,7 +256,7 @@ setTimeout(() => {
     `;
     var div_src = document.querySelector('.our_reviw').appendChild(document.createElement('script'));
     div_src.setAttribute('id', 'review_src');
-    document.querySelector('#review_src').setAttribute('src', 'https://widget.trustmary.com/6K4WmAqsT')
+    // document.querySelector('#review_src').setAttribute('src', 'https://widget.trustmary.com/6K4WmAqsT')
 
 
 

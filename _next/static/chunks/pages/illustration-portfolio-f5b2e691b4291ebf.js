@@ -208,7 +208,7 @@
                               children: (0, i.jsx)(o(), {
                                   "data-cursor-size": "90px",
                                   "data-cursor-text": "View Details",
-                                  "data-cursor-color": "#5d5ad6",
+                                  "data-cursor-color": "#3C8E8D",
                                   src: "/assets/homeProject/".concat(t[0].src),
                                   fill: !0,
                                   sizes: "(max-width: 1200px) 100vw, 50vw",
@@ -240,7 +240,7 @@
                               children: (0, i.jsx)(o(), {
                                   "data-cursor-size": "90px",
                                   "data-cursor-text": "View Details",
-                                  "data-cursor-color": "#5d5ad6",
+                                  "data-cursor-color": "#3C8E8D",
                                   src: "/assets/homeProject/".concat(t[1].src),
                                   fill: !0,
                                   sizes: "(max-width: 1200px) 100vw, 50vw",

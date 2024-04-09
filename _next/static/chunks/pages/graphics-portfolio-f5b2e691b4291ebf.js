@@ -2545,7 +2545,7 @@
                               "data-cursor-color": "#000",
                               "data-cursor-size": "400px",
                               children: (0, i.jsx)(O(), {
-                                  href: "/who-we-are",
+                                  href: "",
                                   children: (0, i.jsx)("h5", {
                                       children: "About us"
                                   })

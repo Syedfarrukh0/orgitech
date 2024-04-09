@@ -277,84 +277,84 @@
               }
           });
           let i = [{
-              name: "AdventurePak",
+              name: "Valley",
               client: "",
-              description: "E-Commerce, Web Design, Marketing",
+              description: "Icon-Based , Text-Based, Logo Artwork",
               src: "",
-              year: 2023,
+              year: 2024,
               link: "",
               srcSLider: ""
           }, {
-              name: "LanPack",
+              name: "Mocare",
               client: "",
-              description: "Gardening, Web Design & Development",
+              description: "Brand Guide Design",
               src: "",
-              year: 2023,
+              year: 2024,
               link: "",
               srcSLider: ""
           }, {
-              name: "Kedarkala",
-              client: "Kedarkala",
-              description: "Branding, Web Design",
+              name: "CBD Oil",
+              client: "",
+              description: "Products Packaging Design, Branding",
               src: "3.webp",
               year: 2022,
-              link: "kedarkala-portfolio-website-case-study",
-              srcSLider: "kedarkala.webp"
+              link: "",
+              srcSLider: ""
           }, {
-              name: "Garden City Mall",
-              client: "GCM",
-              description: "Web Design, Development",
+              name: "Logo Designing",
+              client: "",
+              description: "Multiple Kinds of Logos Artwork",
               src: "4.webp",
-              year: 2022,
-              link: "gcm-phygital-shopping-case-study",
-              srcSLider: "gcm.webp"
+              year: "2020 to 2024",
+              link: "",
+              srcSLider: ""
           }, {
-              name: "Quick X",
-              client: "Quick X",
-              description: "Branding, Web Design, Marketing",
+              name: "Cartoonist & Illustrated T-Shirts",
+              client: "",
+              description: "Apparel Designs, Clothing Brands",
               src: "5.webp",
-              year: 2023,
-              link: "quickx-crypto-case-study",
-              srcSLider: "quickx.webp"
+              year: 2024,
+              link: "",
+              srcSLider: ""
           }, {
-              name: "Certvault",
-              client: "Certvault",
-              description: "UX Planning, UI Design",
+              name: "Reto & Vintage",
+              client: "",
+              description: "Apparel Designs, Clothing Brands",
               src: "6.webp",
               year: 2022,
-              link: "certvault-case-study",
-              srcSLider: "certvault.webp"
+              link: "",
+              srcSLider: ""
           }, {
-              name: "DMTCA",
+              name: "Gamming Mascot Logos",
               client: "DMTCA",
-              description: "Branding, Web Design",
+              description: "Caricature, Mascot Logo",
               src: "7-2.webp",
-              year: 2022,
-              link: "dmtca-digital-branding-case-study",
-              srcSLider: "dmtca.webp"
+              year: 2023,
+              link: "",
+              srcSLider: ""
           }, {
-              name: "PDTL",
-              client: "PDTL",
-              description: "Web Design, Branding, Development",
+              name: "Mascot Logo",
+              client: "",
+              description: "Illustrated, Abstract, Mascot Logos",
               src: "9.webp",
               year: 2022,
-              link: "pdtl-ecommerce-automation-case-study",
-              srcSLider: "pdtl.webp"
+              link: "",
+              srcSLider: ""
           }, {
-              name: "Wragby",
-              client: "Wragby",
-              description: "UI/UX Design, Web Design, Development",
+              name: "Album Cover Art",
+              client: "",
+              description: "Music Album, Songs, Tapmix",
               src: "10.webp",
-              year: 2022,
-              link: "wragby-solutions-case-study",
-              srcSLider: "wragby.webp"
+              year: "2020 to 2024",
+              link: "",
+              srcSLider: ""
           }, {
-              name: "Patra",
-              client: "Patra",
-              description: "UX Planning, UI Design, Development",
+              name: "Book Cover Design",
+              client: "",
+              description: "Fictional, Non-Fictional, Horror",
               src: "8.webp",
-              year: 2022,
-              link: "patra-saas-insurtech-case-study",
+              year: "2020 to 2024",
+              link: "",
               srcSLider: "patra.webp"
           }]
       },

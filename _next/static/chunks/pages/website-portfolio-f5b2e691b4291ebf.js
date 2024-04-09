@@ -281,7 +281,7 @@
               client: "",
               description: "E-Commerce, Web Design, Marketing",
               src: "",
-              year: 2023,
+              year: 2024,
               link: "",
               srcSLider: ""
           }, {
@@ -293,69 +293,69 @@
               link: "",
               srcSLider: ""
           }, {
-              name: "Kedarkala",
-              client: "Kedarkala",
-              description: "Branding, Web Design",
+              name: "Stylofy",
+              client: "",
+              description: "Clothing Brand, E-Commerce, Web Design",
               src: "3.webp",
-              year: 2022,
-              link: "kedarkala-portfolio-website-case-study",
-              srcSLider: "kedarkala.webp"
+              year: 2024,
+              link: "",
+              srcSLider: ""
           }, {
-              name: "Garden City Mall",
-              client: "GCM",
-              description: "Web Design, Development",
+              name: "Kayaking",
+              client: "",
+              description: "E-Commerce, Web Design, Development",
               src: "4.webp",
-              year: 2022,
-              link: "gcm-phygital-shopping-case-study",
-              srcSLider: "gcm.webp"
-          }, {
-              name: "Quick X",
-              client: "Quick X",
-              description: "Branding, Web Design, Marketing",
-              src: "5.webp",
               year: 2023,
-              link: "quickx-crypto-case-study",
-              srcSLider: "quickx.webp"
+              link: "",
+              srcSLider: ""
           }, {
-              name: "Certvault",
-              client: "Certvault",
+              name: "Planti",
+              client: "",
+              description: "Informative, Web Design, Marketing",
+              src: "5.webp",
+              year: 2024,
+              link: "",
+              srcSLider: ""
+          }, {
+              name: "TripTrop",
+              client: "",
               description: "UX Planning, UI Design",
               src: "6.webp",
-              year: 2022,
-              link: "certvault-case-study",
-              srcSLider: "certvault.webp"
+              year: 2023,
+              link: "",
+              srcSLider: ""
           }, {
-              name: "DMTCA",
-              client: "DMTCA",
-              description: "Branding, Web Design",
+              name: "ALOISIA",
+              client: "",
+              description: "Herbel, Branding, Web Design",
               src: "7-2.webp",
               year: 2022,
-              link: "dmtca-digital-branding-case-study",
-              srcSLider: "dmtca.webp"
+              link: "",
+              srcSLider: ""
           }, {
-              name: "PDTL",
-              client: "PDTL",
-              description: "Web Design, Branding, Development",
+              name: "Mison",
+              client: "",
+              description: "Realtor, Web Design, Development",
               src: "9.webp",
               year: 2022,
-              link: "pdtl-ecommerce-automation-case-study",
-              srcSLider: "pdtl.webp"
+              link: "",
+              srcSLider: ""
           }, {
-              name: "Wragby",
-              client: "Wragby",
-              description: "UI/UX Design, Web Design, Development",
+              name: "Jucibar",
+              client: "",
+              description: "Food, Web Design, Development",
               src: "10.webp",
-              year: 2022,
-              link: "wragby-solutions-case-study",
-              srcSLider: "wragby.webp"
+              year: 2021,
+              link: "",
+              srcSLider: ""
           }, {
-              name: "Patra",
-              client: "Patra",
-              description: "UX Planning, UI Design, Development",
+              name: "Food",
+              client: "",
+              description: "Food E-Commerce, UX Planning, UI Design, Development",
               src: "8.webp",
-              year: 2022,
-              link: "patra-saas-insurtech-case-study",
-              srcSLider: "patra.webp"
+              year: 2023,
+              link: "",
+              srcSLider: ""
           }]
       },
       3047: function(e, t, s) {

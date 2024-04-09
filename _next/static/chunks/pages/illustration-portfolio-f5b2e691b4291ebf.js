@@ -277,85 +277,85 @@
               }
           });
           let i = [{
-              name: "AdventurePak",
+              name: "Illustration",
               client: "",
-              description: "E-Commerce, Web Design, Marketing",
+              description: "Character Illustration",
+              src: "",
+              year: 2024,
+              link: "",
+              srcSLider: ""
+          }, {
+              name: "Illustration",
+              client: "",
+              description: "Illustration Artwork",
               src: "",
               year: 2023,
               link: "",
               srcSLider: ""
           }, {
-              name: "LanPack",
+              name: "Cartoonist Illustration",
               client: "",
-              description: "Gardening, Web Design & Development",
-              src: "",
-              year: 2023,
-              link: "",
-              srcSLider: ""
-          }, {
-              name: "Kedarkala",
-              client: "Kedarkala",
-              description: "Branding, Web Design",
+              description: "Brand Illustration",
               src: "3.webp",
-              year: 2022,
-              link: "kedarkala-portfolio-website-case-study",
-              srcSLider: "kedarkala.webp"
+              year: 2024,
+              link: "",
+              srcSLider: ""
           }, {
-              name: "Garden City Mall",
-              client: "GCM",
-              description: "Web Design, Development",
+              name: "Cartoon Artwork",
+              client: "",
+              description: "Cartoonist Cover Artwork",
               src: "4.webp",
-              year: 2022,
-              link: "gcm-phygital-shopping-case-study",
-              srcSLider: "gcm.webp"
+              year: 2023,
+              link: "",
+              srcSLider: ""
           }, {
-              name: "Quick X",
+              name: "Story Illustration",
               client: "Quick X",
-              description: "Branding, Web Design, Marketing",
+              description: "Book Characters Illustration",
               src: "5.webp",
               year: 2023,
-              link: "quickx-crypto-case-study",
-              srcSLider: "quickx.webp"
+              link: "",
+              srcSLider: ""
           }, {
-              name: "Certvault",
-              client: "Certvault",
-              description: "UX Planning, UI Design",
+              name: "StoryBoard Illustration",
+              client: "",
+              description: "Book Illustration",
               src: "6.webp",
-              year: 2022,
-              link: "certvault-case-study",
-              srcSLider: "certvault.webp"
+              year: 2024,
+              link: "",
+              srcSLider: ""
           }, {
-              name: "DMTCA",
-              client: "DMTCA",
-              description: "Branding, Web Design",
+              name: "Children's Book Illustration",
+              client: "",
+              description: "Book Illustration",
               src: "7-2.webp",
-              year: 2022,
-              link: "dmtca-digital-branding-case-study",
-              srcSLider: "dmtca.webp"
+              year: 2023,
+              link: "",
+              srcSLider: ""
           }, {
-              name: "PDTL",
-              client: "PDTL",
-              description: "Web Design, Branding, Development",
+              name: "Children's Book Illustration",
+              client: "",
+              description: "Book Illustration",
               src: "9.webp",
-              year: 2022,
-              link: "pdtl-ecommerce-automation-case-study",
-              srcSLider: "pdtl.webp"
+              year: 2024,
+              link: "",
+              srcSLider: ""
           }, {
-              name: "Wragby",
-              client: "Wragby",
-              description: "UI/UX Design, Web Design, Development",
+              name: "Full Body Character Illustration",
+              client: "",
+              description: "Illustration",
               src: "10.webp",
               year: 2022,
-              link: "wragby-solutions-case-study",
-              srcSLider: "wragby.webp"
+              link: "",
+              srcSLider: ""
           }, {
-              name: "Patra",
-              client: "Patra",
-              description: "UX Planning, UI Design, Development",
+              name: "Caricature",
+              client: "",
+              description: "Character Caricature",
               src: "8.webp",
               year: 2022,
-              link: "patra-saas-insurtech-case-study",
-              srcSLider: "patra.webp"
+              link: "",
+              srcSLider: ""
           }]
       },
       3047: function(e, t, s) {

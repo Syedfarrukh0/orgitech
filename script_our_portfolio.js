@@ -24,6 +24,9 @@ setTimeout(() => {
     var project_img_10 = '_next/10.jpg';
 
     var a = document.querySelectorAll('.Double_stretchyWrapper__12RJ8 img'); 
+    var b = document.querySelectorAll('.workProject_glideContent__s5hFu img');
+
+    // for desktop
     a[0].srcset = '';
     a[0].src = project_img_1;
 
@@ -53,6 +56,37 @@ setTimeout(() => {
 
     a[9].srcset = '';
     a[9].src = project_img_10;
+
+    // for mobile
+    b[0].srcset = '';
+    b[0].src = project_img_1;
+
+    b[1].srcset = '';
+    b[1].src = project_img_2;
+
+    b[2].srcset = '';
+    b[2].src = project_img_3;
+
+    b[3].srcset = '';
+    b[3].src = project_img_4;
+
+    b[4].srcset = '';
+    b[4].src = project_img_5;
+
+    b[5].srcset = '';
+    b[5].src = project_img_6;
+
+    b[6].srcset = '';
+    b[6].src = project_img_7;
+
+    b[7].srcset = '';
+    b[7].src = project_img_8;
+
+    b[8].srcset = '';
+    b[8].src = project_img_9;
+
+    b[9].srcset = '';
+    b[9].src = project_img_10;
 
     
     // //////////////////
@@ -145,8 +179,6 @@ setTimeout(() => {
     slider[20].srcset='';
     slider[20].src= slide_img_21;
 
-
-    document.querySelector('.popUpButton-div').style.display = 'none'
 
     // temporary display none humburg menu
     document.querySelector('#btn-music').style.display = 'none'

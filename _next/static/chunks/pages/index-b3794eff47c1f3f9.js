@@ -460,7 +460,7 @@
                                 children: (0, i.jsx)(o(), {
                                     "data-cursor-size": "90px",
                                     "data-cursor-text": "View Details",
-                                    "data-cursor-color": "#5d5ad6",
+                                    "data-cursor-color": "#3C8E8D",
                                     src: "/assets/homeProject/".concat(t[0].src),
                                     fill: !0,
                                     sizes: "(max-width: 1200px) 100vw, 50vw",
@@ -492,7 +492,7 @@
                                 children: (0, i.jsx)(o(), {
                                     "data-cursor-size": "90px",
                                     "data-cursor-text": "View Details",
-                                    "data-cursor-color": "#5d5ad6",
+                                    "data-cursor-color": "#3C8E8D",
                                     src: "/assets/homeProject/".concat(t[1].src),
                                     fill: !0,
                                     sizes: "(max-width: 1200px) 100vw, 50vw",
@@ -532,85 +532,85 @@
                 }
             });
             let i = [{
-                name: "Patronum",
-                client: "Patronum",
-                description: "Branding, Web Design, Marketing",
-                src: "1.webp",
-                year: 2023,
-                link: "/",
-                srcSLider: "patronum.webp"
+                name: "Website Portfolio",
+                client: "",
+                description: "Crafting Digital Visions, One Pixel at a Time",
+                src: "",
+                year:"",
+                link: "website-portfolio.html",
+                srcSLider: ""
             }, {
-                name: "Dharan",
-                client: "Dharan",
-                description: "E-Commerce, Web Design, Development",
-                src: "2.webp",
-                year: 2023,
-                link: "/",
-                srcSLider: "dharan.webp"
+                name: "Graphics Portfolio",
+                client: "",
+                description: "Elevating Ideas through Creative Canvas",
+                src: "",
+                year: "",
+                link: "graphics-portfolio.html",
+                srcSLider: ""
             }, {
-                name: "Kedarkala",
-                client: "Kedarkala",
-                description: "Branding, Web Design",
-                src: "3.webp",
-                year: 2022,
-                link: "/",
-                srcSLider: "kedarkala.webp"
+                name: "Video Editing",
+                client: "",
+                description: "Transforming Moments into Cinematic Stories",
+                src: "",
+                year: "",
+                link: "",
+                srcSLider: ""
             }, {
-                name: "Garden City Mall",
-                client: "GCM",
-                description: "Web Design, Development",
-                src: "4.webp",
-                year: 2022,
-                link: "/",
-                srcSLider: "gcm.webp"
+                name: "Illustration Portfolio",
+                client: "",
+                description: "Bringing Imagination to Life, Stroke by Stroke",
+                src: "",
+                year: "",
+                link: "illustration-portfolio.html",
+                srcSLider: ""
             }, {
-                name: "Quick X",
-                client: "Quick X",
-                description: "Branding, Web Design, Marketing",
-                src: "5.webp",
-                year: 2023,
-                link: "/",
-                srcSLider: "quickx.webp"
+                name: "Animation Portfolio",
+                client: "",
+                description: "Bringing Imagination to Life, Stroke by Stroke",
+                src: "",
+                year: "",
+                link: "",
+                srcSLider: ""
             }, {
-                name: "Certvault",
-                client: "Certvault",
+                name: "UI/UX Design Portfolio",
+                client: "",
                 description: "UX Planning, UI Design",
-                src: "6.webp",
-                year: 2022,
-                link: "/",
-                srcSLider: "certvault.webp"
+                src: "",
+                year: "",
+                link: "",
+                srcSLider: ""
             }, {
-                name: "DMTCA",
-                client: "DMTCA",
-                description: "Branding, Web Design",
-                src: "7-2.webp",
-                year: 2022,
-                link: "/",
-                srcSLider: "dmtca.webp"
+                name: "",
+                client: "",
+                description: "",
+                src: "",
+                year: "",
+                link: "",
+                srcSLider: ""
             }, {
-                name: "PDTL",
-                client: "PDTL",
-                description: "Web Design, Branding, Development",
-                src: "9.webp",
-                year: 2022,
-                link: "/",
-                srcSLider: "pdtl.webp"
+                name: "",
+                client: "",
+                description: "",
+                src: "",
+                year: "",
+                link: "",
+                srcSLider: ""
             }, {
-                name: "Wragby",
-                client: "Wragby",
-                description: "UI/UX Design, Web Design, Development",
-                src: "10.webp",
-                year: 2022,
-                link: "/",
-                srcSLider: "wragby.webp"
+                name: "",
+                client: "",
+                description: "",
+                src: "",
+                year: "",
+                link: "",
+                srcSLider: ""
             }, {
-                name: "Patra",
-                client: "Patra",
-                description: "UX Planning, UI Design, Development",
-                src: "8.webp",
-                year: 2022,
-                link: "/",
-                srcSLider: "patra.webp"
+                name: "",
+                client: "",
+                description: "",
+                src: "",
+                year: "",
+                link: "",
+                srcSLider: ""
             }]
         },
 
@@ -1000,8 +1000,7 @@
                                         children: "timezone"
                                     }), (0, i.jsx)("div", {
                                         className: "f-heading",
-                                        // children: "+5:30 GMT"
-                                        children: "GMT-8"
+                                        children: "PST"
                                     })]
                                 })
                             }), (0, i.jsxs)("div", {
@@ -2147,7 +2146,7 @@
             var v = s(2818),
                 y = s.n(v),
                 b = s(1132);
-            let w = ["Namaste! \uD83D\uDE4F", "Hello", "Hola", "Bonjour", "Ol\xe1", "Ni Hao", "Ciao", "Salam", "Shalom!"];
+            let w = ["Hello \uD83D\uDE4F", "Bonjour", "Hola", "Salve", "Ol\xe1", "Ni Hao", "Ciao", "Salam", "Shalom!"];
 
             function Index() {
                 let [e, t] = (0, l.useState)(0), [s, a] = (0, l.useState)(!0), [r, n] = (0, l.useState)([]);
@@ -2326,7 +2325,7 @@
                             children: (0, i.jsxs)(components_MagneticButton, {
                                 className: "primary-button",
                                 "data-cursor-text": "click",
-                                "data-cursor-color": "#1a1a1a",
+                                "data-cursor-color": "#3C8E8D",
                                 "data-cursor-size": "100px",
                                 children: [(0, i.jsx)("span", {
                                     className: "round"
@@ -3229,6 +3228,7 @@
                         }, t))
                     })]
                 })
+                
             },
                 Z = s(9008),
                 W = s.n(Z);
@@ -3289,13 +3289,11 @@
                     children: [(0, i.jsx)(n.PB, {
                         title: "Orgitech | Digital Product Design, UI/UX Design Agency",
                         description: "Orgitech is california Leading UI/UX Design Agency that Leverages the Power of Emotion, Design, Technology, and New Strategies to Create Digital Products that People Love to Use.",
-                        // description: "Orgitech is US Leading UI/UX Design Agency that Leverages the Power of Emotion, Design, Technology, and Neuromarketing Strategies to Create Digital Products that People Love to Use.",
                         openGraph: {
                             url: "",
                             title: "Orgitech | Digital Product Design, UI/UX Design Agency",
                             description: "Orgitech is california Leading UI/UX Design Agency that Leverages the Power of Emotion, Design, Technology, and New Strategies to Create Digital Products that People Love to Use.",
                             images: [{
-                                // url: "https://weareenigma.com/assets/featured-images/index.png",
                                 url: "/assets/header-logo/orgitech_logo.png",
                                 width: 1200,
                                 height: 630,
@@ -3351,17 +3349,14 @@
                             type: "",
                             dangerouslySetInnerHTML: {
                                 __html: JSON.stringify([{
-                                    // "@context": "https://schema.org",
                                     "@context": "",
                                     "@type": "ProfessionalService",
                                     name: "Orgitech",
                                     url: "",
-                                    // url: "https://weareenigma.com/",
-                                    // image: "https://lh3.googleusercontent.com/p/AF1QipOrkTrTs3PcLHNNf0iQVVPlb4FTsUlynqO-DFjb=s680-w680-h510",
                                     image: "",
                                     address: {
                                         "@type": "PostalAddress",
-                                        streetAddress: "7911 Arlington Ave Apt 59, Riverside CA 92503",
+                                        streetAddress: "7911 Arlington Ave, Riverside CA 92503",
                                         addressLocality: "california",
                                         addressRegion: "UP",
                                         postalCode: "92503",

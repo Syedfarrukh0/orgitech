@@ -818,59 +818,60 @@
                     return () => e.revert()
                 }), (0, a.jsxs)(a.Fragment, {
                     children: [(0, a.jsx)(d.PB, {
-                        title: "We Elevate Your Digital Presence | Contact Enigma",
-                        description: "Contact Enigma for top-tier UI/UX design, front-end development, and organic digital marketing solutions. Let's collaborate and ascend your digital presence.",
+                        title: "We Elevate Your Digital Presence | Contact Orgitech",
+                        description: "Contact Orgitech for top-tier UI/UX design, front-end development, and organic digital marketing solutions. Let's collaborate and ascend your digital presence.",
                         openGraph: {
-                            url: "https://weareenigma.com/get-in-touch",
-                            title: "We Elevate Your Digital Presence | Contact Enigma",
-                            description: "Contact Enigma for top-tier UI/UX design, front-end development, and organic digital marketing solutions. Let's collaborate and ascend your digital presence.",
+                            url: "",
+                            title: "We Elevate Your Digital Presence | Contact Orgitech",
+                            description: "Contact Orgitech for top-tier UI/UX design, front-end development, and organic digital marketing solutions. Let's collaborate and ascend your digital presence.",
                             images: [{
-                                url: "https://weareenigma.com/assets/featured-images/contact.png",
+                                // url: "https://weareenigma.com/assets/featured-images/contact.png",
+                                url: "",
                                 width: 1200,
                                 height: 630,
                                 alt: "Contact Us Feature Image",
                                 type: "image/png"
                             }],
-                            siteName: "Enigma Digital"
+                            siteName: "Orgitech Digital"
                         },
                         additionalMetaTags: [{
-                            name: "twitter:title",
-                            content: "We Elevate Your Digital Presence | Contact Enigma"
+                            name: "",
+                            content: ""
                         }, {
-                            name: "twitter:description",
-                            content: "Contact Enigma for top-tier UI/UX design, front-end development, and organic digital marketing solutions. Let's collaborate and ascend your digital presence."
+                            name: "",
+                            content: ""
                         }, {
-                            name: "twitter:image",
-                            content: "https://weareenigma.com/assets/featured-images/contact.png"
+                            name: "",
+                            content: ""
                         }]
                     }), (0, a.jsxs)(S(), {
                         children: [(0, a.jsx)("link", {
                             rel: "canonical",
-                            href: "https://weareenigma.com/get-in-touch"
+                            href: ""
                         }), (0, a.jsx)("link", {
                             rel: "alternate",
-                            href: "https://weareenigma.com/get-in-touch",
+                            href: "",
                             hreflang: "x-default"
                         }), (0, a.jsx)("script", {
                             type: "application/ld+json",
                             dangerouslySetInnerHTML: {
                                 __html: JSON.stringify({
-                                    "@context": "https://schema.org",
+                                    "@context": "",
                                     "@type": "WebPage",
                                     mainEntityOfPage: {
                                         "@type": "WebPage",
-                                        "@id": "https://weareenigma.com/get-in-touch"
+                                        "@id": ""
                                     },
                                     name: "Contact",
-                                    description: "Contact Enigma for top-tier UI/UX design, front-end development, and organic digital marketing solutions. Let's collaborate and ascend your digital presence.",
+                                    description: "Contact Orgitech for top-tier UI/UX design, front-end development, and organic digital marketing solutions. Let's collaborate and ascend your digital presence.",
                                     datePublished: "2023-01-01T12:00:00+05:30",
                                     dateModified: "2023-11-17T12:00:00+05:30",
                                     publisher: {
                                         "@type": "Organization",
-                                        name: "Enigma Digital",
+                                        name: "Orgitech Digital",
                                         logo: {
                                             "@type": "ImageObject",
-                                            url: "https://weareenigma.com/assets/header-logo/enigma-en-logo.svg"
+                                            url: ""
                                         }
                                     }
                                 })
@@ -997,7 +998,7 @@
                                             href: "#",
                                             className: "address",
                                             children: (0, a.jsxs)("span", {
-                                                children: ["7911 Arlington Ave Apt 59", (0, a.jsx)("br", {}), " Riverside CA 92503",]
+                                                children: ["7911 Arlington Ave", (0, a.jsx)("br", {}), " Riverside CA 92503",]
                                             })
                                         })]
                                     }), (0, a.jsxs)("div", {
@@ -1005,10 +1006,10 @@
                                         children: [(0, a.jsx)("h2", {
                                             children: "Phone"
                                         }), (0, a.jsx)("a", {
-                                            href: "tel:+951 900 3213",
+                                            href: "tel:+1 951 900 3213",
                                             className: "address",
                                             children: (0, a.jsx)("span", {
-                                                children: "+951 900 3213"
+                                                children: "+1 951 900 3213"
                                             })
                                         })]
                                     })]

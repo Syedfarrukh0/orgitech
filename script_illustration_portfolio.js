@@ -146,4 +146,10 @@ setTimeout(() => {
     slider[20].src= slide_img_21;
     
     
+    document.querySelector('.popUpButton-div').style.display = 'none'
+
+    // temporary display none humburg menu
+    document.querySelector('#btn-music').style.display = 'none'
+    // temporary display none humburg menu
+    
 }, 5000);

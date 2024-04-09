@@ -104,10 +104,10 @@
                                 }), (0, n.jsx)("div", {
                                     className: "contact-us-box",
                                     "data-cursor-text": "Say Hi !!",
-                                    "data-cursor-color": "#5d5ad6",
+                                    "data-cursor-color": "#3C8E8D",
                                     "data-cursor-size": "100px",
                                     children: (0, n.jsx)(o(), {
-                                        href: "/get-in-touch",
+                                        href: "/get-in-touch.html",
                                         children: (0, n.jsx)("button", {
                                             children: "Contact Us"
                                         })
@@ -145,10 +145,10 @@
                                                 "data-cursor-exclusion": !0,
                                                 "data-cursor-size": "80px",
                                                 children: (0, n.jsx)("a", {
-                                                    href: "tel:+951 900 3213",
+                                                    href: "tel:+1 951 900 3213",
                                                     children: (0, n.jsx)("span", {
-                                                        "data-text": "+951 900 3213",
-                                                        children: "+951 900 3213"
+                                                        "data-text": "+1 951 900 3213",
+                                                        children: "+1 951 900 3213"
                                                     })
                                                 })
                                             }), 
@@ -264,7 +264,7 @@
                                 children: (0, n.jsx)("div", {
                                     className: "center f__anim-two",
                                     children: (0, n.jsx)("span", {
-                                        children: "\xa9 2023 Orgitech Logo Consulting, LLP. All Rights Reserved. All Wrongs Reversed."
+                                        children: "\xa9 2024 Orgitech LLC. All Rights Reserved. All Wrongs Reversed."
                                     })
                                 })
                             })
@@ -520,7 +520,7 @@
                                                                 className: "content-heading nav__link",
                                                                 ref: _,
                                                                 children: (0, n.jsxs)(o(), {
-                                                                    href: "/get-in-touch",
+                                                                    href: "/get-in-touch.html",
                                                                     className: "btn-music",
                                                                     children: [(0, n.jsx)("span", {
                                                                         className: "content-heading-serial",
@@ -669,10 +669,10 @@
                                                                         "data-cursor-opaque": !0,
                                                                         "data-cursor-size": "50px",
                                                                         children: (0, n.jsx)("a", {
-                                                                            href: "tel:+951 900 3213",
+                                                                            href: "tel:+1 951 900 3213",
                                                                             children: (0, n.jsx)("span", {
-                                                                                "data-text": "+951 900 3213",
-                                                                                children: "+951 900 3213"
+                                                                                "data-text": "+1 951 900 3213",
+                                                                                children: "+1 951 900 3213"
                                                                             })
                                                                         })
                                                                     })
@@ -905,14 +905,14 @@
                                 },
                                 "data-cursor-text": "Close",
                                 "data-cursor-size": "100px",
-                                "data-cursor-color": "#000",
+                                "data-cursor-color": "#3C8E8D",
                                 children: (0, n.jsx)(Showreel, {
                                     show: e,
                                     onClose: () => {
                                         a(!1)
                                     },
                                     "data-cursor-text": "Close",
-                                    "data-cursor-color": "#000",
+                                    "data-cursor-color": "#3C8E8D",
                                     "data-cursor-size": "100px",
                                     children: (0, n.jsx)("video", {
                                         src: "/assets/reels/showreel.mp4",
@@ -1042,22 +1042,22 @@
                                     className: "contact-content-call-desc",
                                     id: "say-anim-links",
                                     children: (0, n.jsxs)("a", {
-                                        href: "tel:+951 900 3213",
+                                        href: "tel:+1 951 900 3213",
                                         style: {
                                             letterSpacing: "1.3px"
                                         },
                                         children: [(0, n.jsx)("span", {
-                                            children: "+91"
-                                        }), " 8178 026 136"]
+                                            children: "+1"
+                                        }), " 951 900 3213"]
                                     })
                                 }), (0, n.jsx)("div", {
                                     className: "contact-content-call-desc",
                                     id: "say-anim-links",
                                     children: (0, n.jsxs)("a", {
-                                        href: "tel:+951 900 3213",
+                                        href: "tel:+1 951 900 3213",
                                         children: [(0, n.jsx)("span", {
-                                            children: "+91"
-                                        }), " 7303 644 520"]
+                                            children: "+1"
+                                        }), " 951 900 3213"]
                                     })
                                 })]
                             }), (0, n.jsxs)("div", {

@@ -151,12 +151,12 @@ setTimeout(() => {
     // //////////////////////////////////////
     // add projects images
     // //////////////////////////////////////
-    var project_img_1 = '_next/1.webp';
-    var project_img_2 = '_next/2.jpg';
-    var project_img_3 = '_next/3.jpg';
-    var project_img_4 = '_next/4.jpg';
-    var project_img_5 = '_next/5.jpg';
-    var project_img_6 = '_next/6.jpg';
+    var project_img_1 = '_next/webdesign.jpg';
+    var project_img_2 = '_next/graphics.jpg';
+    var project_img_3 = '_next/videoedit.jpg';
+    var project_img_4 = '_next/illustration.png';
+    var project_img_5 = '_next/animation.jpg';
+    var project_img_6 = '_next/uiux.jpg';
 
 
     var a = document.querySelectorAll('.Double_stretchyWrapper__12RJ8');
@@ -256,7 +256,19 @@ setTimeout(() => {
     `;
     var div_src = document.querySelector('.our_reviw').appendChild(document.createElement('script'));
     div_src.setAttribute('id', 'review_src');
-    // document.querySelector('#review_src').setAttribute('src', 'https://widget.trustmary.com/6K4WmAqsT')
+    document.querySelector('#review_src').setAttribute('src', 'https://widget.trustmary.com/6K4WmAqsT')
+
+
+
+    
+
+    document.querySelector('.related-articles').style.display = 'none'
+    document.querySelector('#button-container').style.display = 'none'
+    document.querySelector('.popUpButton-div').style.display = 'none'
+
+    // temporary display none humburg menu
+    document.querySelector('#btn-music').style.display = 'none'
+    // temporary display none humburg menu
 
 }, 1000);
 

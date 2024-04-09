@@ -113,4 +113,11 @@ setTimeout(() => {
     services_img[3].srcset = '';
     services_img[3].src = '/assets/experties/marketing.png';
 
+
+    document.querySelector('.popUpButton-div').style.display = 'none'
+
+    // temporary display none humburg menu
+    document.querySelector('#btn-music').style.display = 'none'
+    // temporary display none humburg menu
+
 }, 5000);

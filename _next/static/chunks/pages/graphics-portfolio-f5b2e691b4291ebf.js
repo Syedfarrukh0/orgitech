@@ -2569,56 +2569,56 @@
                       title: "Orgitech's Portfolio: Showcasing Digital Mastery",
                       description: "Explore Orgitech's portfolio, a showcase of our diverse services in UI/UX design, branding, and web development, driving exceptional results.",
                       openGraph: {
-                          url: "https://weareenigma.com/our-portfolio",
+                          url: "",
                           title: "Orgitech's Portfolio: Showcasing Digital Mastery",
                           description: "Explore Orgitech's portfolio, a showcase of our diverse services in UI/UX design, branding, and web development, driving exceptional results.",
                           images: [{
-                              url: "https://weareenigma.com/assets/featured-images/work.png",
+                              url: "",
                               width: 1200,
                               height: 630,
                               alt: "Our Portfolio Feature Image",
                               type: "image/png"
                           }],
-                          siteName: "Enigma Digital"
+                          siteName: "Orgitech"
                       },
                       additionalMetaTags: [{
-                          name: "twitter:title",
-                          content: "Orgitech's Portfolio: Showcasing Digital Mastery"
+                          name: "",
+                          content: ""
                       }, {
-                          name: "twitter:description",
-                          content: "Explore Orgitech's portfolio, a showcase of our diverse services in UI/UX design, branding, and web development, driving exceptional results."
+                          name: "",
+                          content: ""
                       }, {
-                          name: "twitter:image",
-                          content: "https://weareenigma.com/assets/featured-images/work.png"
+                          name: "",
+                          content: ""
                       }]
                   }), (0, i.jsxs)(J(), {
                       children: [(0, i.jsx)("link", {
                           rel: "canonical",
-                          href: "https://weareenigma.com/our-portfolio"
+                          href: ""
                       }), (0, i.jsx)("link", {
                           rel: "alternate",
-                          href: "https://weareenigma.com/our-portfolio",
+                          href: "",
                           hreflang: "x-default"
                       }), (0, i.jsx)("script", {
                           type: "application/ld+json",
                           dangerouslySetInnerHTML: {
                               __html: JSON.stringify({
-                                  "@context": "https://schema.org",
+                                  "@context": "",
                                   "@type": "WebPage",
                                   mainEntityOfPage: {
                                       "@type": "WebPage",
-                                      "@id": "https://weareenigma.com/our-portfolio"
+                                      "@id": ""
                                   },
                                   name: "Works",
                                   description: "Explore Orgitech's portfolio, a showcase of our diverse services in UI/UX design, branding, and web development, driving exceptional results.",
-                                  datePublished: "2023-01-01T12:00:00+05:30",
-                                  dateModified: "2023-11-17T12:00:00+05:30",
+                                  datePublished: "",
+                                  dateModified: "",
                                   publisher: {
                                       "@type": "Organization",
-                                      name: "Enigma Digital",
+                                      name: "Orgitech",
                                       logo: {
                                           "@type": "ImageObject",
-                                          url: "https://weareenigma.com/assets/header-logo/enigma-en-logo.svg"
+                                          url: ""
                                       }
                                   }
                               })

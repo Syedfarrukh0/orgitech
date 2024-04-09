@@ -9,4 +9,10 @@ setTimeout(() => {
     document.querySelector('.footer-dark-img').srcset ='';
     document.querySelector('.footer-dark-img').src ='/assets/footer-main/Vector.png';
 
+    document.querySelector('.popUpButton-div').style.display = 'none'
+
+    // temporary display none humburg menu
+    document.querySelector('#btn-music').style.display = 'none'
+    // temporary display none humburg menu
+
 }, 1000);

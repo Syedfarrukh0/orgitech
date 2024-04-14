@@ -1757,9 +1757,9 @@
                                       className: "".concat(I().glideContent, " ").concat(I().mt20),
                                       id: "image-container",
                                       children: [(0, i.jsx)("a", {
-                                          href: "/kedarkala-portfolio-website-case-study",
+                                          href: "/website-portfolio.html",
                                           children: (0, i.jsx)(C(), {
-                                              src: "/assets/projects/new-project/kedarkala2.webp",
+                                              src: "",
                                               width: 1e3,
                                               height: 1e3,
                                               alt: "Image",
@@ -1771,13 +1771,13 @@
                                           children: (0, i.jsxs)("div", {
                                               className: I().c_project_info,
                                               children: [(0, i.jsx)("p", {
-                                                  children: "2022"
+                                                  children: "2024"
                                               }), " ", (0, i.jsx)("p", {
-                                                  children: "Branding, Web Design"
+                                                  children: "E-Commerce, Web Design, Marketing"
                                               }), (0, i.jsxs)("div", {
                                                   className: I().projectCta,
                                                   children: [(0, i.jsx)("h4", {
-                                                      children: "Kedarkala"
+                                                      children: "AdventurePak"
                                                   }), (0, i.jsx)("div", {
                                                       className: "".concat(I().c_prj_btn, " ").concat(I().js_tab_arrow),
                                                       children: (0, i.jsxs)("svg", {
@@ -1833,9 +1833,9 @@
                                       className: "".concat(I().glideContent, " ").concat(I().mt20, " ").concat(I().mt0, " ").concat(I().forthMt),
                                       id: "image-container",
                                       children: [(0, i.jsx)("a", {
-                                          href: "/patra-saas-insurtech-case-study",
+                                          href: "/website-portfolio.html",
                                           children: (0, i.jsx)(C(), {
-                                              src: "/assets/projects/new-project/patra1.webp",
+                                              src: "",
                                               width: 1e3,
                                               height: 1e3,
                                               alt: "Image",
@@ -1847,13 +1847,13 @@
                                           children: (0, i.jsxs)("div", {
                                               className: I().c_project_info,
                                               children: [(0, i.jsx)("p", {
-                                                  children: "2022"
+                                                  children: "2023"
                                               }), " ", (0, i.jsx)("p", {
-                                                  children: "Web Design, Branding, Development"
+                                                  children: "Gardening, Web Design & Development"
                                               }), (0, i.jsxs)("div", {
                                                   className: I().projectCta,
                                                   children: [(0, i.jsx)("h4", {
-                                                      children: "Patra"
+                                                      children: "LanPack"
                                                   }), (0, i.jsx)("div", {
                                                       className: "".concat(I().c_prj_btn, " ").concat(I().js_tab_arrow),
                                                       children: (0, i.jsxs)("svg", {
@@ -1912,9 +1912,9 @@
                                       className: "".concat(I().glideContent, " ").concat(I().mt20, " ").concat(I().mt0),
                                       id: "image-container",
                                       children: [(0, i.jsx)("a", {
-                                          href: "/wragby-solutions-case-study",
+                                          href: "/website-portfolio.html",
                                           children: (0, i.jsx)(C(), {
-                                              src: "/assets/projects/new-project/wragby.webp",
+                                              src: "",
                                               width: 1e3,
                                               height: 1e3,
                                               alt: "Image",
@@ -1926,13 +1926,13 @@
                                           children: (0, i.jsxs)("div", {
                                               className: I().c_project_info,
                                               children: [(0, i.jsx)("p", {
-                                                  children: "2022"
+                                                  children: "2024"
                                               }), " ", (0, i.jsx)("p", {
-                                                  children: "UI/ UX Design, Development"
+                                                  children: "Clothing Brand, E-Commerce, Web Design"
                                               }), (0, i.jsxs)("div", {
                                                   className: I().projectCta,
                                                   children: [(0, i.jsx)("h4", {
-                                                      children: "Wragby"
+                                                      children: "Stylofy"
                                                   }), (0, i.jsx)("div", {
                                                       className: "".concat(I().c_prj_btn, " ").concat(I().js_tab_arrow),
                                                       children: (0, i.jsxs)("svg", {
@@ -1988,9 +1988,9 @@
                                       className: I().glideContent,
                                       id: "image-container",
                                       children: [(0, i.jsx)("a", {
-                                          href: "/gcm-phygital-shopping-case-study",
+                                          href: "/website-portfolio.html",
                                           children: (0, i.jsx)(C(), {
-                                              src: "/assets/projects/new-project/gcm.webp",
+                                              src: "",
                                               width: 1e3,
                                               height: 1e3,
                                               alt: "Image",
@@ -2002,13 +2002,13 @@
                                           children: (0, i.jsxs)("div", {
                                               className: I().c_project_info,
                                               children: [(0, i.jsx)("p", {
-                                                  children: "2022"
+                                                  children: "2023"
                                               }), " ", (0, i.jsx)("p", {
-                                                  children: "Web Design, Development"
+                                                  children: "E-Commerce, Web Design, Development"
                                               }), (0, i.jsxs)("div", {
                                                   className: I().projectCta,
                                                   children: [(0, i.jsx)("h4", {
-                                                      children: "Gardencity Mall"
+                                                      children: "Kayaking"
                                                   }), (0, i.jsx)("div", {
                                                       className: "".concat(I().c_prj_btn, " ").concat(I().js_tab_arrow),
                                                       children: (0, i.jsxs)("svg", {
@@ -2067,9 +2067,9 @@
                                       className: "".concat(I().glideContent, " ").concat(I().mt20, " ").concat(I().mt0),
                                       id: "image-container",
                                       children: [(0, i.jsx)("a", {
-                                          href: "/pdtl-ecommerce-automation-case-study",
+                                          href: "/website-portfolio.html",
                                           children: (0, i.jsx)(C(), {
-                                              src: "/assets/projects/new-project/pdtl.webp",
+                                              src: "",
                                               width: 1e3,
                                               height: 1e3,
                                               alt: "Image",
@@ -2081,13 +2081,13 @@
                                           children: (0, i.jsxs)("div", {
                                               className: I().c_project_info,
                                               children: [(0, i.jsx)("p", {
-                                                  children: "2022"
+                                                  children: "2024"
                                               }), " ", (0, i.jsx)("p", {
-                                                  children: "Web Design, Branding, Development"
+                                                  children: "Informative, Web Design, Marketing"
                                               }), (0, i.jsxs)("div", {
                                                   className: I().projectCta,
                                                   children: [(0, i.jsx)("h4", {
-                                                      children: "PDTL"
+                                                      children: "Planti"
                                                   }), (0, i.jsx)("div", {
                                                       className: "".concat(I().c_prj_btn, " ").concat(I().js_tab_arrow),
                                                       children: (0, i.jsxs)("svg", {
@@ -2143,9 +2143,9 @@
                                       className: I().glideContent,
                                       id: "image-container",
                                       children: [(0, i.jsx)("a", {
-                                          href: "/dharan-ecommerce-case-study",
+                                          href: "/website-portfolio.html",
                                           children: (0, i.jsx)(C(), {
-                                              src: "/assets/projects/new-project/dharan.webp",
+                                              src: "",
                                               width: 1e3,
                                               height: 1e3,
                                               alt: "Image",
@@ -2157,13 +2157,13 @@
                                           children: (0, i.jsxs)("div", {
                                               className: I().c_project_info,
                                               children: [(0, i.jsx)("p", {
-                                                  children: "2020"
+                                                  children: "2023"
                                               }), " ", (0, i.jsx)("p", {
-                                                  children: "E-Commerce, Web Design, Development"
+                                                  children: "UX Planning, UI Design"
                                               }), (0, i.jsxs)("div", {
                                                   className: I().projectCta,
                                                   children: [(0, i.jsx)("h4", {
-                                                      children: "Dharan"
+                                                      children: "TripTrop"
                                                   }), (0, i.jsx)("div", {
                                                       className: "".concat(I().c_prj_btn, " ").concat(I().js_tab_arrow),
                                                       children: (0, i.jsxs)("svg", {
@@ -2222,9 +2222,9 @@
                                       className: "".concat(I().glideContent, " ").concat(I().mt20, " ").concat(I().mt0, " ").concat(I().forthMt),
                                       id: "image-container",
                                       children: [(0, i.jsx)("a", {
-                                          href: "/certvault-case-study",
+                                          href: "/website-portfolio.html",
                                           children: (0, i.jsx)(C(), {
-                                              src: "/assets/projects/new-project/cert.png",
+                                              src: "",
                                               width: 1e3,
                                               height: 1e3,
                                               alt: "Image",
@@ -2238,11 +2238,11 @@
                                               children: [(0, i.jsx)("p", {
                                                   children: "2022"
                                               }), " ", (0, i.jsx)("p", {
-                                                  children: "Web Design, Branding, Development"
+                                                  children: "Herbel, Branding, Web Design"
                                               }), (0, i.jsxs)("div", {
                                                   className: I().projectCta,
                                                   children: [(0, i.jsx)("h4", {
-                                                      children: "Certvault"
+                                                      children: "ALOISIA"
                                                   }), (0, i.jsx)("div", {
                                                       className: "".concat(I().c_prj_btn, " ").concat(I().js_tab_arrow),
                                                       children: (0, i.jsxs)("svg", {
@@ -2298,9 +2298,9 @@
                                       className: I().glideContent,
                                       id: "image-container",
                                       children: [(0, i.jsx)("a", {
-                                          href: "/quickx-crypto-case-study",
+                                          href: "/website-portfolio.html",
                                           children: (0, i.jsx)(C(), {
-                                              src: "/assets/projects/new-project/quick.png",
+                                              src: "",
                                               width: 1e3,
                                               height: 1e3,
                                               alt: "Image",
@@ -2312,13 +2312,13 @@
                                           children: (0, i.jsxs)("div", {
                                               className: I().c_project_info,
                                               children: [(0, i.jsx)("p", {
-                                                  children: "2020"
+                                                  children: "2022"
                                               }), " ", (0, i.jsx)("p", {
-                                                  children: "E-Commerce, Web Design, Development"
+                                                  children: "Realtor, Web Design, Development"
                                               }), (0, i.jsxs)("div", {
                                                   className: I().projectCta,
                                                   children: [(0, i.jsx)("h4", {
-                                                      children: "QuickX"
+                                                      children: "Mison"
                                                   }), (0, i.jsx)("div", {
                                                       className: "".concat(I().c_prj_btn, " ").concat(I().js_tab_arrow),
                                                       children: (0, i.jsxs)("svg", {
@@ -2377,9 +2377,9 @@
                                       className: "".concat(I().glideContent),
                                       id: "image-container",
                                       children: [(0, i.jsx)("a", {
-                                          href: "/patronum-saas-case-study",
+                                          href: "/website-portfolio.html",
                                           children: (0, i.jsx)(C(), {
-                                              src: "/assets/projects/new-project/patronum.webp",
+                                              src: "",
                                               width: 1e3,
                                               height: 1e3,
                                               alt: "Image",
@@ -2391,13 +2391,13 @@
                                           children: (0, i.jsxs)("div", {
                                               className: I().c_project_info,
                                               children: [(0, i.jsx)("p", {
-                                                  children: "2019"
+                                                  children: "2021"
                                               }), " ", (0, i.jsx)("p", {
-                                                  children: "Branding, Web Design, Marketing"
+                                                  children: "Food, Web Design, Development"
                                               }), (0, i.jsxs)("div", {
                                                   className: I().projectCta,
                                                   children: [(0, i.jsx)("h4", {
-                                                      children: "Patronum"
+                                                      children: "Jucibar"
                                                   }), (0, i.jsx)("div", {
                                                       className: "".concat(I().c_prj_btn, " ").concat(I().js_tab_arrow),
                                                       children: (0, i.jsxs)("svg", {
@@ -2453,9 +2453,9 @@
                                       className: I().glideContent,
                                       id: "image-container",
                                       children: [(0, i.jsx)("a", {
-                                          href: "/dmtca-digital-branding-case-study",
+                                          href: "/website-portfolio.html",
                                           children: (0, i.jsx)(C(), {
-                                              src: "/assets/projects/new-project/dmtca.png",
+                                              src: "",
                                               width: 1e3,
                                               height: 1e3,
                                               alt: "Image",
@@ -2467,13 +2467,13 @@
                                           children: (0, i.jsxs)("div", {
                                               className: I().c_project_info,
                                               children: [(0, i.jsx)("p", {
-                                                  children: "2020"
+                                                  children: "2023"
                                               }), " ", (0, i.jsx)("p", {
-                                                  children: "E-Commerce, Web Design, Development"
+                                                  children: "Food E-Commerce, UX Planning, UI Design, Development"
                                               }), (0, i.jsxs)("div", {
                                                   className: I().projectCta,
                                                   children: [(0, i.jsx)("h4", {
-                                                      children: "DMTCA"
+                                                      children: "Food"
                                                   }), (0, i.jsx)("div", {
                                                       className: "".concat(I().c_prj_btn, " ").concat(I().js_tab_arrow),
                                                       children: (0, i.jsxs)("svg", {
@@ -2549,7 +2549,7 @@
                               "data-cursor-color": "#000",
                               "data-cursor-size": "400px",
                               children: (0, i.jsx)(O(), {
-                                  href: "",
+                                  href: "/website-portfolio.html",
                                   children: (0, i.jsx)("h5", {
                                       children: "About us"
                                   })

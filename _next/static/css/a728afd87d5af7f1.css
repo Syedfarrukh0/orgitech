@@ -769,3 +769,8 @@
 .popUpButton-div{
     display: none;
 }
+
+.dark .svg-dark-mode {
+    filter: invert(1) !important;
+    z-index: 1;
+}

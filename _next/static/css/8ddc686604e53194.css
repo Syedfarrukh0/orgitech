@@ -1,0 +1,176 @@
+.c-cursor {
+    position: fixed;
+    z-index: 999;
+    pointer-events: none;
+    will-change: transform, height, width, color;
+    transform: translate(-50%, -50%)
+}
+
+.c-cursor,
+.c-cursor__inner {
+    top: 0;
+    left: 0;
+    border-radius: 100%;
+    contain: layout style size
+}
+
+.c-cursor__inner {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0);
+    opacity: 0;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -.01em;
+    mix-blend-mode: inherit;
+    will-change: transform, height, width, opacity, color;
+    background-position: 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important
+}
+
+.c-cursor__img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    filter: invert(1)
+}
+
+[data-cursor-background-image],
+[data-cursor-color],
+[data-cursor-exclusion],
+[data-cursor-magnetic],
+[data-cursor-size],
+[data-cursor-stick],
+[data-cursor-text] {
+    position: relative
+}
+
+[data-cursor-background-image]:before,
+[data-cursor-color]:before,
+[data-cursor-exclusion]:before,
+[data-cursor-magnetic]:before,
+[data-cursor-size]:before,
+[data-cursor-stick]:before,
+[data-cursor-text]:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent
+}
+
+[data-cursor-background-image] a,
+[data-cursor-background-image] button,
+[data-cursor-background-image] input,
+[data-cursor-background-image] textarea,
+[data-cursor-color] a,
+[data-cursor-color] button,
+[data-cursor-color] input,
+[data-cursor-color] textarea,
+[data-cursor-exclusion] a,
+[data-cursor-exclusion] button,
+[data-cursor-exclusion] input,
+[data-cursor-exclusion] textarea,
+[data-cursor-magnetic] a,
+[data-cursor-magnetic] button,
+[data-cursor-magnetic] input,
+[data-cursor-magnetic] textarea,
+[data-cursor-size] a,
+[data-cursor-size] button,
+[data-cursor-size] input,
+[data-cursor-size] textarea,
+[data-cursor-stick] a,
+[data-cursor-stick] button,
+[data-cursor-stick] input,
+[data-cursor-stick] textarea,
+[data-cursor-text] a,
+[data-cursor-text] button,
+[data-cursor-text] input,
+[data-cursor-text] textarea {
+    pointer-events: painted;
+    transform: translate(0) !important
+}
+
+.modal_modalWrapper__E7zhu {
+    height: 100vh
+}
+
+.modal_modalWrapper__E7zhu,
+.modal_modal__gGnuY {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+
+.modal_modal__gGnuY {
+    height: 100%;
+    border-radius: 5px;
+    position: relative;
+    z-index: 991;
+    animation: modal_fadeInDown__yAdH9 .8s;
+    animation: modal_all___SSn2 .3s ease-in
+}
+
+.modal_modal__gGnuY video {
+    width: 100%;
+    height: 100%;
+    animation: modal_fadeInDown__yAdH9 .8s;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 2.5vw;
+    padding: 1vw
+}
+
+.modal_btnClose__rQrei {
+    width: 100%;
+    height: 100%;
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    border: none;
+    cursor: none !important;
+    background: transparent
+}
+
+.modal_btnClose__rQrei span {
+    font-size: 1.2vw;
+    color: #000;
+    font-weight: 600
+}
+
+@keyframes modal_fadeInDown__yAdH9 {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0)
+    }
+}
+
+@media screen and (max-width:991px) {
+    .modal_modalWrapper__E7zhu {
+        background: #00000095;
+        height: 100vh
+    }
+
+    .modal_modal__gGnuY {
+        height: 50%
+    }
+}
+
+.dark .svg-dark-mode {
+    filter: invert(1) !important;
+    z-index: 1;
+}

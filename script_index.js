@@ -266,9 +266,6 @@ setTimeout(() => {
     document.querySelector('#button-container').style.display = 'none'
     document.querySelector('.popUpButton-div').style.display = 'none'
 
-    // temporary display none humburg menu
-    document.querySelector('#btn-music').style.display = 'none'
-    // temporary display none humburg menu
 
 }, 1000);
 

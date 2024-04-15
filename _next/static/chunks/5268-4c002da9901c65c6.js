@@ -417,7 +417,7 @@
                                                                 className: "content-heading nav__link",
                                                                 ref: l,
                                                                 children: (0, n.jsxs)(o(), {
-                                                                    href: "/who-we-are",
+                                                                    href: "/", // about link past here
                                                                     className: "btn-music",
                                                                     children: [(0, n.jsx)("span", {
                                                                         className: "content-heading-serial",
@@ -437,7 +437,7 @@
                                                                 className: "content-heading nav__link",
                                                                 ref: m,
                                                                 children: (0, n.jsxs)(o(), {
-                                                                    href: "/services",
+                                                                    href: "/", // services link past here
                                                                     className: "btn-music",
                                                                     children: [(0, n.jsx)("span", {
                                                                         className: "content-heading-serial",
@@ -457,7 +457,7 @@
                                                                 className: "content-heading nav__link",
                                                                 ref: h,
                                                                 children: (0, n.jsxs)(o(), {
-                                                                    href: "/our-portfolio",
+                                                                    href: "/", // portfolio link past here
                                                                     className: "btn-music",
                                                                     children: [(0, n.jsx)("span", {
                                                                         className: "content-heading-serial",
@@ -480,7 +480,7 @@
                                                                 className: "content-heading nav__link",
                                                                 ref: u,
                                                                 children: (0, n.jsxs)(o(), {
-                                                                    href: "/blog",
+                                                                    href: "/",   // blog link past here
                                                                     className: "btn-music",
                                                                     children: [(0, n.jsx)("span", {
                                                                         className: "content-heading-serial",
@@ -500,7 +500,7 @@
                                                                 className: "content-heading nav__link",
                                                                 ref: x,
                                                                 children: (0, n.jsxs)(o(), {
-                                                                    href: "/careers",
+                                                                    href: "/",      // careers link past here
                                                                     className: "btn-music",
                                                                     children: [(0, n.jsx)("span", {
                                                                         className: "content-heading-serial",
@@ -520,7 +520,7 @@
                                                                 className: "content-heading nav__link",
                                                                 ref: _,
                                                                 children: (0, n.jsxs)(o(), {
-                                                                    href: "/get-in-touch.html",
+                                                                    href: "/get-in-touch.html", // contect link past here
                                                                     className: "btn-music",
                                                                     children: [(0, n.jsx)("span", {
                                                                         className: "content-heading-serial",
